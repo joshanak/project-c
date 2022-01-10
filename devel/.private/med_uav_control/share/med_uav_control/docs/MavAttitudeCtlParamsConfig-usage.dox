@@ -1,0 +1,24 @@
+\subsubsection usage Usage
+\verbatim
+<node name="urs_solution" pkg="urs_solution" type="urs_solution">
+  <param name="roll_kp" type="double" value="0.5" />
+  <param name="roll_ki" type="double" value="0.1" />
+  <param name="roll_kd" type="double" value="0.0" />
+  <param name="roll_r_kp" type="double" value="20.0" />
+  <param name="roll_r_ki" type="double" value="20.0" />
+  <param name="roll_r_kd" type="double" value="2.0" />
+  <param name="pitch_kp" type="double" value="0.5" />
+  <param name="pitch_ki" type="double" value="0.1" />
+  <param name="pitch_kd" type="double" value="0.0" />
+  <param name="pitch_r_kp" type="double" value="20.0" />
+  <param name="pitch_r_ki" type="double" value="20.0" />
+  <param name="pitch_r_kd" type="double" value="2.0" />
+  <param name="yaw_kp" type="double" value="1.0" />
+  <param name="yaw_ki" type="double" value="0.001" />
+  <param name="yaw_kd" type="double" value="0.1" />
+  <param name="yaw_r_kp" type="double" value="200.0" />
+  <param name="yaw_r_ki" type="double" value="0.0" />
+  <param name="yaw_r_kd" type="double" value="0.0" />
+</node>
+\endverbatim
+

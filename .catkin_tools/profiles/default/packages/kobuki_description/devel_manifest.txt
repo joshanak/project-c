@@ -1,0 +1,5 @@
+kobuki/kobuki_description
+/home/petar/project_ws/devel/.private/kobuki_description/cmake.lock /home/petar/project_ws/devel/./cmake.lock
+/home/petar/project_ws/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake /home/petar/project_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+/home/petar/project_ws/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake /home/petar/project_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+/home/petar/project_ws/devel/.private/kobuki_description/lib/pkgconfig/kobuki_description.pc /home/petar/project_ws/devel/lib/pkgconfig/kobuki_description.pc

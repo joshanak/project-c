@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/med_uav_control/share/gennodejs/ros/med_uav_control/_index.js

@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/parrot_arsdk/include/parrot_arsdk/libARStream2/arstream2_stream_metadata.h

@@ -1,0 +1,7 @@
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:[m[K In member function ‘[01m[Kstd::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > turtlebot_rrt::RRTPlanner::BuildPlan(int, const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:395:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ has not been declared
+  395 |           pos.pose.orientation = [01;31m[Ktf[m[K::createQuaternionMsgFromYaw(0);
+      |                                  [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/turtlebot_rrt.dir/build.make:63: CMakeFiles/turtlebot_rrt.dir/src/turtlebot_rrt.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1908: CMakeFiles/turtlebot_rrt.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

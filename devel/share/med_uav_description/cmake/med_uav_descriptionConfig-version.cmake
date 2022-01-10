@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/med_uav_description/share/med_uav_description/cmake/med_uav_descriptionConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/navfn/share/gennodejs/ros/navfn/srv/SetCostmap.js

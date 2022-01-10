@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/turtlebot_msgs/share/gennodejs/ros/turtlebot_msgs/msg/PanoramaImg.js

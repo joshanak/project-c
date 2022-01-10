@@ -1,0 +1,2 @@
+turtlebot_apps/turtlebot_apps
+/home/petar/project_ws/devel/.private/turtlebot_apps/cmake.lock /home/petar/project_ws/devel/./cmake.lock

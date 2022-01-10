@@ -1,0 +1,5 @@
+Linked: (/home/petar/project_ws/devel/.private/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake, /home/petar/project_ws/devel/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake)
+Linked: (/home/petar/project_ws/devel/.private/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake, /home/petar/project_ws/devel/share/kobuki_node/cmake/kobuki_nodeConfig.cmake)
+Linked: (/home/petar/project_ws/devel/.private/kobuki_node/lib/libkobuki_nodelet.so, /home/petar/project_ws/devel/lib/libkobuki_nodelet.so)
+Linked: (/home/petar/project_ws/devel/.private/kobuki_node/lib/libkobuki_ros.so, /home/petar/project_ws/devel/lib/libkobuki_ros.so)
+Linked: (/home/petar/project_ws/devel/.private/kobuki_node/lib/pkgconfig/kobuki_node.pc, /home/petar/project_ws/devel/lib/pkgconfig/kobuki_node.pc)

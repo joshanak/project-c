@@ -1,0 +1,23 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~roll_kp" : \b [double] Roll ctl PID P gain min: 0.0, default: 0.5, max: 100.0
+- \b "~roll_ki" : \b [double] Roll ctl PID I gain min: 0.0, default: 0.1, max: 100.0
+- \b "~roll_kd" : \b [double] Roll ctl PID D gain min: 0.0, default: 0.0, max: 100.0
+- \b "~roll_r_kp" : \b [double] Roll rate ctl PID P gain min: 0.0, default: 20.0, max: 1000.0
+- \b "~roll_r_ki" : \b [double] Roll rate ctl PID I gain min: 0.0, default: 20.0, max: 1000.0
+- \b "~roll_r_kd" : \b [double] Roll rate ctl PID D gain min: 0.0, default: 2.0, max: 1000.0
+- \b "~pitch_kp" : \b [double] Pitch ctl PID P gain min: 0.0, default: 0.5, max: 100.0
+- \b "~pitch_ki" : \b [double] Pitch ctl PID I gain min: 0.0, default: 0.1, max: 100.0
+- \b "~pitch_kd" : \b [double] Pitch ctl PID D gain min: 0.0, default: 0.0, max: 100.0
+- \b "~pitch_r_kp" : \b [double] Pitch rate ctl PID P gain min: 0.0, default: 20.0, max: 1000.0
+- \b "~pitch_r_ki" : \b [double] Pitch rate ctl PID I gain min: 0.0, default: 20.0, max: 1000.0
+- \b "~pitch_r_kd" : \b [double] Pitch rate ctl PID D gain min: 0.0, default: 2.0, max: 1000.0
+- \b "~yaw_kp" : \b [double] Yaw ctl PID P gain min: 0.0, default: 1.0, max: 100.0
+- \b "~yaw_ki" : \b [double] Yaw ctl PID I gain min: 0.0, default: 0.001, max: 100.0
+- \b "~yaw_kd" : \b [double] Yaw ctl PID D gain min: 0.0, default: 0.1, max: 100.0
+- \b "~yaw_r_kp" : \b [double] Yaw rate ctl PID P gain min: 0.0, default: 200.0, max: 1000.0
+- \b "~yaw_r_ki" : \b [double] Yaw rate ctl PID I gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~yaw_r_kd" : \b [double] Yaw rate ctl PID D gain min: 0.0, default: 0.0, max: 1000.0
+

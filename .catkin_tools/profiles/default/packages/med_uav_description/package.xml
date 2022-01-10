@@ -1,0 +1,15 @@
+<package>
+
+  <name>med_uav_description</name>
+  <version>1.0.0</version>
+  <description>This package provides URDF model of the parrot ardrone vehicle.</description>
+
+  <maintainer email="antun.ivanovic@gmail.com">Antun Ivanovic</maintainer>
+
+  <author>Antun Ivanovic</author>
+
+  <license>Other</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

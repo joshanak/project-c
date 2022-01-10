@@ -1,0 +1,9 @@
+[I] Starting task 'build-sdk'
+[I] In '/home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils': ALCHEMY_TARGET_CONFIG_DIR="/home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/products/arsdk/native/config" ALCHEMY_TARGET_OUT="/home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native" ALCHEMY_TARGET_PRODUCT="arsdk" ALCHEMY_TARGET_PRODUCT_VARIANT="native" ALCHEMY_TARGET_SCAN_ADD_DIRS=" /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/packages" ALCHEMY_TARGET_SCAN_PRUNE_DIRS=" /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils" ALCHEMY_USE_COLORS="0" ALCHEMY_WORKSPACE_DIR="/home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils" PARROT_BUILD_PROP_GROUP="drones" PARROT_BUILD_PROP_PRODUCT="arsdk" PARROT_BUILD_PROP_PROJECT="arsdk" PARROT_BUILD_PROP_UID="arsdk-native-20211116-1227-0.0.0" PARROT_BUILD_PROP_VARIANT="native" PARROT_BUILD_PROP_VERSION="0.0.0" /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/build/alchemy/scripts/alchemake -j 4 all
+[W] Not using job control
+make[3]: warning: -j4 forced in submake: resetting jobserver mode.
+/home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/build/alchemy/targets/setup.mk:30: *** unspecified TARGET_ARCH.  Stop.
+[E] Task 'build-sdk' failed (Command failed (returncode=2))
+make[2]: *** [CMakeFiles/ARSDKBuildUtils.dir/build.make:114: arsdk/src/ARSDKBuildUtils-stamp/ARSDKBuildUtils-build] Error 1
+make[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ARSDKBuildUtils.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

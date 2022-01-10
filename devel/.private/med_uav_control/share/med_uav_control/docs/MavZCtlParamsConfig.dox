@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~z_kp" : \b [double] Z ctl PID P gain min: 0.0, default: 0.5, max: 1000.0
+- \b "~z_ki" : \b [double] Z ctl PID I gain min: 0.0, default: 0.125, max: 1000.0
+- \b "~z_kd" : \b [double] Z ctl PID D gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~vz_kp" : \b [double] Vz ctl PID P gain min: 0.0, default: 75.0, max: 1000.0
+- \b "~vz_ki" : \b [double] Vz ctl PID I gain min: 0.0, default: 10.0, max: 1000.0
+- \b "~vz_kd" : \b [double] Vz ctl PID D gain min: 0.0, default: 0.41472, max: 1000.0
+

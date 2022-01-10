@@ -1,0 +1,1808 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libarsal.so                   /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o (ARSAL_Mutex_Lock)
+libmux.so                     /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o (mux_queue_try_get_buf)
+libpomp.so                    /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o (pomp_buffer_unref)
+libarmedia.so                 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o (ARMEDIA_VideoEncapsuler_SetUntimedMetadata)
+libm.so.6                     /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o (log@@GLIBC_2.29)
+libpthread.so.0               /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o (write@@GLIBC_2.2.5)
+libc.so.6                     /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o (socket@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .text          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .data          0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .bss           0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarsal.so
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libmux.so
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libpomp.so
+LOAD /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/staging/usr/lib/libarmedia.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x598
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x598 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x0000000000000888     0x1ab8
+ *(.dynsym)
+ .dynsym        0x0000000000000888     0x1ab8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000002340     0x20ce
+ *(.dynstr)
+ .dynstr        0x0000000000002340     0x20ce /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x000000000000440e      0x23a
+ *(.gnu.version)
+ .gnu.version   0x000000000000440e      0x23a /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000004648        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000004648        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000004648       0xd0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000004648       0xd0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000004718      0x558
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000004718        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000004718       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro.local
+                0x0000000000004730      0x498 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000004bc8       0x78 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000004c40        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000004c40       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000004c58       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000004c70     0x1698
+ *(.rela.plt)
+ .rela.plt      0x0000000000004c70     0x1698 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000007000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000007000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000007000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000007000                _init
+ .init          0x0000000000007016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000007020      0xf20
+ *(.plt)
+ .plt           0x0000000000007020      0xf20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000007f40       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000007f40       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000007f50      0xf10
+ *(.plt.sec)
+ .plt.sec       0x0000000000007f50      0xf10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x0000000000008e60    0x3e371
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008e60       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000008f19        0x7 
+ .text.ARSTREAM2_Error_ToString
+                0x0000000000008f20       0xd0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                0x0000000000008f20                ARSTREAM2_Error_ToString
+ .text.ARSTREAM2_H264Filter_FillSliceMbStatus
+                0x0000000000008ff0       0x76 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ *fill*         0x0000000000009066        0xa 
+ .text.ARSTREAM2_H264Filter_ResetAu
+                0x0000000000009070       0xb3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000009070                ARSTREAM2_H264Filter_ResetAu
+ *fill*         0x0000000000009123        0xd 
+ .text.ARSTREAM2_H264Filter_ProcessAu
+                0x0000000000009130     0x1395 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x0000000000009130                ARSTREAM2_H264Filter_ProcessAu
+ *fill*         0x000000000000a4c5        0xb 
+ .text.ARSTREAM2_H264Filter_GetSpsPps
+                0x000000000000a4d0       0xe7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x000000000000a4d0                ARSTREAM2_H264Filter_GetSpsPps
+ *fill*         0x000000000000a5b7        0x9 
+ .text.ARSTREAM2_H264Filter_GetVideoParams
+                0x000000000000a5c0       0x6e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x000000000000a5c0                ARSTREAM2_H264Filter_GetVideoParams
+ *fill*         0x000000000000a62e        0x2 
+ .text.ARSTREAM2_H264Filter_Init
+                0x000000000000a630      0x24a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x000000000000a630                ARSTREAM2_H264Filter_Init
+ *fill*         0x000000000000a87a        0x6 
+ .text.ARSTREAM2_H264Filter_Free
+                0x000000000000a880       0x87 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                0x000000000000a880                ARSTREAM2_H264Filter_Free
+ *fill*         0x000000000000a907        0x9 
+ .text.ARSTREAM2_H264FilterError_GenerateGrayIdrFrame
+                0x000000000000a910      0x6c4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                0x000000000000a910                ARSTREAM2_H264FilterError_GenerateGrayIdrFrame
+ *fill*         0x000000000000afd4        0xc 
+ .text.ARSTREAM2_H264FilterError_HandleMissingSlices
+                0x000000000000afe0      0x55f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                0x000000000000afe0                ARSTREAM2_H264FilterError_HandleMissingSlices
+ *fill*         0x000000000000b53f        0x1 
+ .text.ARSTREAM2_H264FilterError_HandleMissingEndOfFrame
+                0x000000000000b540      0x498 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                0x000000000000b540                ARSTREAM2_H264FilterError_HandleMissingEndOfFrame
+ *fill*         0x000000000000b9d8        0x8 
+ .text.readBits
+                0x000000000000b9e0      0x1d4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000bbb4        0xc 
+ .text.ARSTREAM2_H264Parser_ParseFillerData
+                0x000000000000bbc0       0x41 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000bc01        0xf 
+ .text.ARSTREAM2_H264Parser_StartcodeMatch_file.isra.0
+                0x000000000000bc10      0x181 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000bd91        0xf 
+ .text.ARSTREAM2_H264Parser_ParseAud
+                0x000000000000bda0      0x3f5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000c195        0xb 
+ .text.ARSTREAM2_H264Parser_ParseScalingList
+                0x000000000000c1a0      0x49b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000c63b        0x5 
+ .text.readBits_expGolomb_ue.constprop.0
+                0x000000000000c640      0x38d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000c9cd        0x3 
+ .text.readBits_expGolomb_se.constprop.0
+                0x000000000000c9d0      0x3a9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000000cd79        0x7 
+ .text.ARSTREAM2_H264Parser_ParseSeiPayload_picTiming.isra.0
+                0x000000000000cd80     0x27e0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .text.ARSTREAM2_H264Parser_ParseSei
+                0x000000000000f560     0x2c95 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x00000000000121f5        0xb 
+ .text.ARSTREAM2_H264Parser_ParseRefPicListModification
+                0x0000000000012200      0xf26 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000013126        0xa 
+ .text.ARSTREAM2_H264Parser_ParseHrdParams
+                0x0000000000013130     0x190c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000014a3c        0x4 
+ .text.ARSTREAM2_H264Parser_ParseVui
+                0x0000000000014a40     0x2cf9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000017739        0x7 
+ .text.ARSTREAM2_H264Parser_ParseSps
+                0x0000000000017740     0x1f59 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x0000000000019699        0x7 
+ .text.ARSTREAM2_H264Parser_ParsePps
+                0x00000000000196a0     0x213b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000001b7db        0x5 
+ .text.ARSTREAM2_H264Parser_ParseSlice
+                0x000000000001b7e0     0x30b6 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000001e896        0xa 
+ .text.ARSTREAM2_H264Parser_ParseNalu
+                0x000000000001e8a0      0x2f6 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001e8a0                ARSTREAM2_H264Parser_ParseNalu
+ *fill*         0x000000000001eb96        0xa 
+ .text.ARSTREAM2_H264Parser_ReadNextNalu_file
+                0x000000000001eba0      0x2f5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001eba0                ARSTREAM2_H264Parser_ReadNextNalu_file
+ *fill*         0x000000000001ee95        0xb 
+ .text.ARSTREAM2_H264Parser_ReadNextNalu_buffer
+                0x000000000001eea0      0x25a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001eea0                ARSTREAM2_H264Parser_ReadNextNalu_buffer
+ *fill*         0x000000000001f0fa        0x6 
+ .text.ARSTREAM2_H264Parser_SetupNalu_buffer
+                0x000000000001f100       0x93 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f100                ARSTREAM2_H264Parser_SetupNalu_buffer
+ *fill*         0x000000000001f193        0xd 
+ .text.ARSTREAM2_H264Parser_GetLastNaluType
+                0x000000000001f1a0       0x49 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f1a0                ARSTREAM2_H264Parser_GetLastNaluType
+ *fill*         0x000000000001f1e9        0x7 
+ .text.ARSTREAM2_H264Parser_GetSliceInfo
+                0x000000000001f1f0       0xc9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f1f0                ARSTREAM2_H264Parser_GetSliceInfo
+ *fill*         0x000000000001f2b9        0x7 
+ .text.ARSTREAM2_H264Parser_GetUserDataSeiCount
+                0x000000000001f2c0       0x55 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f2c0                ARSTREAM2_H264Parser_GetUserDataSeiCount
+ *fill*         0x000000000001f315        0xb 
+ .text.ARSTREAM2_H264Parser_GetRecoveryPointSei
+                0x000000000001f320       0x80 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f320                ARSTREAM2_H264Parser_GetRecoveryPointSei
+ .text.ARSTREAM2_H264Parser_GetUserDataSei
+                0x000000000001f3a0       0xdd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f3a0                ARSTREAM2_H264Parser_GetUserDataSei
+ *fill*         0x000000000001f47d        0x3 
+ .text.ARSTREAM2_H264Parser_GetSpsPpsContext
+                0x000000000001f480       0x91 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f480                ARSTREAM2_H264Parser_GetSpsPpsContext
+ *fill*         0x000000000001f511        0xf 
+ .text.ARSTREAM2_H264Parser_GetSliceContext
+                0x000000000001f520       0x81 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f520                ARSTREAM2_H264Parser_GetSliceContext
+ *fill*         0x000000000001f5a1        0xf 
+ .text.ARSTREAM2_H264Parser_Init
+                0x000000000001f5b0       0xbd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f5b0                ARSTREAM2_H264Parser_Init
+ *fill*         0x000000000001f66d        0x3 
+ .text.ARSTREAM2_H264Parser_Free
+                0x000000000001f670       0x6d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                0x000000000001f670                ARSTREAM2_H264Parser_Free
+ *fill*         0x000000000001f6dd        0x3 
+ .text.ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV1
+                0x000000000001f6e0       0x9a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001f6e0                ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV1
+ *fill*         0x000000000001f77a        0x6 
+ .text.ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV1
+                0x000000000001f780       0xa4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001f780                ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV1
+ *fill*         0x000000000001f824        0xc 
+ .text.ARSTREAM2_H264Sei_IsUserDataParrotStreamingV1
+                0x000000000001f830       0x4e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001f830                ARSTREAM2_H264Sei_IsUserDataParrotStreamingV1
+ *fill*         0x000000000001f87e        0x2 
+ .text.ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV2
+                0x000000000001f880       0x56 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001f880                ARSTREAM2_H264Sei_SerializeUserDataParrotStreamingV2
+ *fill*         0x000000000001f8d6        0xa 
+ .text.ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV2
+                0x000000000001f8e0       0x76 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001f8e0                ARSTREAM2_H264Sei_DeserializeUserDataParrotStreamingV2
+ *fill*         0x000000000001f956        0xa 
+ .text.ARSTREAM2_H264Sei_IsUserDataParrotStreamingV2
+                0x000000000001f960       0x4e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                0x000000000001f960                ARSTREAM2_H264Sei_IsUserDataParrotStreamingV2
+ *fill*         0x000000000001f9ae        0x2 
+ .text.writeBits
+                0x000000000001f9b0      0x106 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000001fab6        0xa 
+ .text.writeBits_expGolomb_ue.constprop.0
+                0x000000000001fac0      0x3fb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000001febb        0x5 
+ .text.writeBits_expGolomb_se.constprop.0
+                0x000000000001fec0      0x5b7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x0000000000020477        0x9 
+ .text.ARSTREAM2_H264Writer_WriteSliceHeader
+                0x0000000000020480     0x3698 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x0000000000023b18        0x8 
+ .text.ARSTREAM2_H264Writer_WriteSeiPayload_pictureTiming
+                0x0000000000023b20     0x1fef /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x0000000000025b0f        0x1 
+ .text.ARSTREAM2_H264Writer_WriteSeiNalu
+                0x0000000000025b10     0x1825 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000025b10                ARSTREAM2_H264Writer_WriteSeiNalu
+ *fill*         0x0000000000027335        0xb 
+ .text.ARSTREAM2_H264Writer_RewriteNonRefPSliceNalu
+                0x0000000000027340      0x8a0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000027340                ARSTREAM2_H264Writer_RewriteNonRefPSliceNalu
+ .text.ARSTREAM2_H264Writer_WriteSkippedPSliceNalu
+                0x0000000000027be0      0x8e4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000027be0                ARSTREAM2_H264Writer_WriteSkippedPSliceNalu
+ *fill*         0x00000000000284c4        0xc 
+ .text.ARSTREAM2_H264Writer_WriteGrayISliceNalu
+                0x00000000000284d0      0xac3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x00000000000284d0                ARSTREAM2_H264Writer_WriteGrayISliceNalu
+ *fill*         0x0000000000028f93        0xd 
+ .text.ARSTREAM2_H264Writer_SetSpsPpsContext
+                0x0000000000028fa0       0x86 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000028fa0                ARSTREAM2_H264Writer_SetSpsPpsContext
+ *fill*         0x0000000000029026        0xa 
+ .text.ARSTREAM2_H264Writer_Init
+                0x0000000000029030       0x4c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000029030                ARSTREAM2_H264Writer_Init
+ *fill*         0x000000000002907c        0x4 
+ .text.ARSTREAM2_H264Writer_Free
+                0x0000000000029080       0x1f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                0x0000000000029080                ARSTREAM2_H264Writer_Free
+ *fill*         0x000000000002909f        0x1 
+ .text.ARSTREAM2_H264_NaluReset
+                0x00000000000290a0       0x88 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000290a0                ARSTREAM2_H264_NaluReset
+ *fill*         0x0000000000029128        0x8 
+ .text.ARSTREAM2_H264_NaluCopy
+                0x0000000000029130       0xa3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029130                ARSTREAM2_H264_NaluCopy
+ *fill*         0x00000000000291d3        0xd 
+ .text.ARSTREAM2_H264_AuReset
+                0x00000000000291e0       0x7f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000291e0                ARSTREAM2_H264_AuReset
+ *fill*         0x000000000002925f        0x1 
+ .text.ARSTREAM2_H264_AuCopy
+                0x0000000000029260       0xa0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029260                ARSTREAM2_H264_AuCopy
+ .text.ARSTREAM2_H264_NaluFifoInit
+                0x0000000000029300      0x17c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029300                ARSTREAM2_H264_NaluFifoInit
+ *fill*         0x000000000002947c        0x4 
+ .text.ARSTREAM2_H264_NaluFifoFree
+                0x0000000000029480       0x5f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029480                ARSTREAM2_H264_NaluFifoFree
+ *fill*         0x00000000000294df        0x1 
+ .text.ARSTREAM2_H264_NaluFifoPopFreeItem
+                0x00000000000294e0       0xd0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000294e0                ARSTREAM2_H264_NaluFifoPopFreeItem
+ .text.ARSTREAM2_H264_NaluFifoPushFreeItem
+                0x00000000000295b0       0x9d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000295b0                ARSTREAM2_H264_NaluFifoPushFreeItem
+ *fill*         0x000000000002964d        0x3 
+ .text.ARSTREAM2_H264_NaluFifoEnqueueItem
+                0x0000000000029650       0xfd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029650                ARSTREAM2_H264_NaluFifoEnqueueItem
+ *fill*         0x000000000002974d        0x3 
+ .text.ARSTREAM2_H264_NaluFifoDequeueItem
+                0x0000000000029750       0xe3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029750                ARSTREAM2_H264_NaluFifoDequeueItem
+ *fill*         0x0000000000029833        0xd 
+ .text.ARSTREAM2_H264_NaluFifoFlush
+                0x0000000000029840       0x77 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029840                ARSTREAM2_H264_NaluFifoFlush
+ *fill*         0x00000000000298b7        0x9 
+ .text.ARSTREAM2_H264_AuFifoAddQueue
+                0x00000000000298c0       0xf1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000298c0                ARSTREAM2_H264_AuFifoAddQueue
+ *fill*         0x00000000000299b1        0xf 
+ .text.ARSTREAM2_H264_AuFifoRemoveQueue
+                0x00000000000299c0       0xcd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x00000000000299c0                ARSTREAM2_H264_AuFifoRemoveQueue
+ *fill*         0x0000000000029a8d        0x3 
+ .text.ARSTREAM2_H264_AuFifoGetBuffer
+                0x0000000000029a90       0xd0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029a90                ARSTREAM2_H264_AuFifoGetBuffer
+ .text.ARSTREAM2_H264_AuFifoBufferAddRef
+                0x0000000000029b60       0x60 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029b60                ARSTREAM2_H264_AuFifoBufferAddRef
+ .text.ARSTREAM2_H264_AuFifoUnrefBuffer
+                0x0000000000029bc0       0xdd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029bc0                ARSTREAM2_H264_AuFifoUnrefBuffer
+ *fill*         0x0000000000029c9d        0x3 
+ .text.ARSTREAM2_H264_AuFifoPopFreeItem
+                0x0000000000029ca0       0xd0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029ca0                ARSTREAM2_H264_AuFifoPopFreeItem
+ .text.ARSTREAM2_H264_AuFifoEnqueueItem
+                0x0000000000029d70       0xb5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029d70                ARSTREAM2_H264_AuFifoEnqueueItem
+ *fill*         0x0000000000029e25        0xb 
+ .text.ARSTREAM2_H264_AuFifoDequeueItem
+                0x0000000000029e30       0xe3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029e30                ARSTREAM2_H264_AuFifoDequeueItem
+ *fill*         0x0000000000029f13        0xd 
+ .text.ARSTREAM2_H264_AuNaluFifoInit
+                0x0000000000029f20      0x110 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x0000000000029f20                ARSTREAM2_H264_AuNaluFifoInit
+ .text.ARSTREAM2_H264_AuNaluFifoFree
+                0x000000000002a030       0x73 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a030                ARSTREAM2_H264_AuNaluFifoFree
+ *fill*         0x000000000002a0a3        0xd 
+ .text.ARSTREAM2_H264_AuFifoFree
+                0x000000000002a0b0      0x18f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a0b0                ARSTREAM2_H264_AuFifoFree
+ *fill*         0x000000000002a23f        0x1 
+ .text.ARSTREAM2_H264_AuFifoInit
+                0x000000000002a240      0x48a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a240                ARSTREAM2_H264_AuFifoInit
+ *fill*         0x000000000002a6ca        0x6 
+ .text.ARSTREAM2_H264_AuNaluFifoPopFreeItem
+                0x000000000002a6d0       0xab /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a6d0                ARSTREAM2_H264_AuNaluFifoPopFreeItem
+ *fill*         0x000000000002a77b        0x5 
+ .text.ARSTREAM2_H264_AuNaluFifoPushFreeItem
+                0x000000000002a780       0x81 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a780                ARSTREAM2_H264_AuNaluFifoPushFreeItem
+ *fill*         0x000000000002a801        0xf 
+ .text.ARSTREAM2_H264_AuEnqueueNalu
+                0x000000000002a810       0xe1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a810                ARSTREAM2_H264_AuEnqueueNalu
+ *fill*         0x000000000002a8f1        0xf 
+ .text.ARSTREAM2_H264_AuEnqueueNaluBefore
+                0x000000000002a900       0xa1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a900                ARSTREAM2_H264_AuEnqueueNaluBefore
+ *fill*         0x000000000002a9a1        0xf 
+ .text.ARSTREAM2_H264_AuDequeueNalu
+                0x000000000002a9b0       0xb9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002a9b0                ARSTREAM2_H264_AuDequeueNalu
+ *fill*         0x000000000002aa69        0x7 
+ .text.ARSTREAM2_H264_AuNaluFifoFlush
+                0x000000000002aa70       0x9c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002aa70                ARSTREAM2_H264_AuNaluFifoFlush
+ *fill*         0x000000000002ab0c        0x4 
+ .text.ARSTREAM2_H264_AuFifoPushFreeItem
+                0x000000000002ab10       0xf4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002ab10                ARSTREAM2_H264_AuFifoPushFreeItem
+ *fill*         0x000000000002ac04        0xc 
+ .text.ARSTREAM2_H264_AuFifoFlushQueue
+                0x000000000002ac10      0x113 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002ac10                ARSTREAM2_H264_AuFifoFlushQueue
+ *fill*         0x000000000002ad23        0xd 
+ .text.ARSTREAM2_H264_AuFifoFlush
+                0x000000000002ad30      0x11b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002ad30                ARSTREAM2_H264_AuFifoFlush
+ *fill*         0x000000000002ae4b        0x5 
+ .text.ARSTREAM2_H264_AuFifoDuplicateItem
+                0x000000000002ae50      0x1fb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002ae50                ARSTREAM2_H264_AuFifoDuplicateItem
+ *fill*         0x000000000002b04b        0x5 
+ .text.ARSTREAM2_H264_AuCheckSizeRealloc
+                0x000000000002b050      0x142 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002b050                ARSTREAM2_H264_AuCheckSizeRealloc
+ *fill*         0x000000000002b192        0xe 
+ .text.ARSTREAM2_H264_AuMbStatusCheckSizeRealloc
+                0x000000000002b1a0       0xcc /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                0x000000000002b1a0                ARSTREAM2_H264_AuMbStatusCheckSizeRealloc
+ *fill*         0x000000000002b26c        0x4 
+ .text.ARSTREAM2_RtpReceiver_ControlMuxTeardown
+                0x000000000002b270       0x44 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b2b4        0xc 
+ .text.ARSTREAM2_RtpReceiver_StreamMuxTeardown
+                0x000000000002b2c0       0x44 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b304        0xc 
+ .text.ARSTREAM2_RtpReceiver_MuxReadControlData
+                0x000000000002b310       0xe0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.ARSTREAM2_RtpReceiver_MuxSendControlData
+                0x000000000002b3f0       0x70 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .text.ARSTREAM2_RtpReceiver_ControlMuxSetup
+                0x000000000002b460       0xcb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b52b        0x5 
+ .text.ARSTREAM2_RtpReceiver_StreamMuxSetup
+                0x000000000002b530       0xcb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b5fb        0x5 
+ .text.ARSTREAM2_RtpReceiver_MuxRecvMmsg
+                0x000000000002b600      0x1ea /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b7ea        0x6 
+ .text.ARSTREAM2_RtpReceiver_ControlSocketTeardown
+                0x000000000002b7f0       0x48 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b838        0x8 
+ .text.ARSTREAM2_RtpReceiver_StreamSocketTeardown
+                0x000000000002b840       0x48 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b888        0x8 
+ .text.ARSTREAM2_RtpReceiver_NetReadControlData
+                0x000000000002b890      0x105 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002b995        0xb 
+ .text.ARSTREAM2_RtpReceiver_StreamSocketSetup
+                0x000000000002b9a0      0x3fa /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002bd9a        0x6 
+ .text.ARSTREAM2_RtpReceiver_NetSendControlData
+                0x000000000002bda0       0x8b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002be2b        0x5 
+ .text.ARSTREAM2_RtpReceiver_NetRecvMmsg
+                0x000000000002be30       0xe4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002bf14        0xc 
+ .text.ARSTREAM2_RtpReceiver_ControlSocketSetup
+                0x000000000002bf20      0x603 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000002c523        0xd 
+ .text.ARSTREAM2_RtpReceiver_Stop
+                0x000000000002c530       0xd0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002c530                ARSTREAM2_RtpReceiver_Stop
+ .text.ARSTREAM2_RtpReceiver_New
+                0x000000000002c600      0xb14 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002c600                ARSTREAM2_RtpReceiver_New
+ *fill*         0x000000000002d114        0xc 
+ .text.ARSTREAM2_RtpReceiver_Delete
+                0x000000000002d120      0x197 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002d120                ARSTREAM2_RtpReceiver_Delete
+ *fill*         0x000000000002d2b7        0x9 
+ .text.ARSTREAM2_RtpReceiver_GetSelectParams
+                0x000000000002d2c0      0x1c2 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002d2c0                ARSTREAM2_RtpReceiver_GetSelectParams
+ *fill*         0x000000000002d482        0xe 
+ .text.ARSTREAM2_RtpReceiver_ProcessRtp
+                0x000000000002d490      0x30c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002d490                ARSTREAM2_RtpReceiver_ProcessRtp
+ *fill*         0x000000000002d79c        0x4 
+ .text.ARSTREAM2_RtpReceiver_ProcessRtcp
+                0x000000000002d7a0      0x7eb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002d7a0                ARSTREAM2_RtpReceiver_ProcessRtcp
+ *fill*         0x000000000002df8b        0x5 
+ .text.ARSTREAM2_RtpReceiver_ProcessEnd
+                0x000000000002df90       0x4c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002df90                ARSTREAM2_RtpReceiver_ProcessEnd
+ *fill*         0x000000000002dfdc        0x4 
+ .text.ARSTREAM2_RtpReceiver_UpdateVideoStats
+                0x000000000002dfe0       0x66 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002dfe0                ARSTREAM2_RtpReceiver_UpdateVideoStats
+ *fill*         0x000000000002e046        0xa 
+ .text.ARSTREAM2_RtpReceiver_GetSdesItem
+                0x000000000002e050      0x185 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002e050                ARSTREAM2_RtpReceiver_GetSdesItem
+ *fill*         0x000000000002e1d5        0xb 
+ .text.ARSTREAM2_RtpReceiver_SetSdesItem
+                0x000000000002e1e0      0x26b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002e1e0                ARSTREAM2_RtpReceiver_SetSdesItem
+ *fill*         0x000000000002e44b        0x5 
+ .text.ARSTREAM2_RtpReceiver_GetPeerSdesItem
+                0x000000000002e450      0x124 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002e450                ARSTREAM2_RtpReceiver_GetPeerSdesItem
+ *fill*         0x000000000002e574        0xc 
+ .text.ARSTREAM2_RtpReceiver_GetMonitoring
+                0x000000000002e580      0x497 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                0x000000000002e580                ARSTREAM2_RtpReceiver_GetMonitoring
+ *fill*         0x000000000002ea17        0x9 
+ .text.ARSTREAM2_RtpSender_RtpStatsCallback
+                0x000000000002ea20      0x20d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ *fill*         0x000000000002ec2d        0x3 
+ .text.ARSTREAM2_RtpSender_UpdateMonitoring
+                0x000000000002ec30      0x1cf /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ *fill*         0x000000000002edff        0x1 
+ .text.ARSTREAM2_RtpSender_SetSocketSendBufferSize.isra.0
+                0x000000000002ee00      0x170 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .text.ARSTREAM2_RtpSender_New
+                0x000000000002ef70     0x1322 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x000000000002ef70                ARSTREAM2_RtpSender_New
+ *fill*         0x0000000000030292        0xe 
+ .text.ARSTREAM2_RtpSender_Delete
+                0x00000000000302a0      0x15a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x00000000000302a0                ARSTREAM2_RtpSender_Delete
+ *fill*         0x00000000000303fa        0x6 
+ .text.ARSTREAM2_RtpSender_FlushNaluQueue
+                0x0000000000030400       0x94 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000030400                ARSTREAM2_RtpSender_FlushNaluQueue
+ *fill*         0x0000000000030494        0xc 
+ .text.ARSTREAM2_RtpSender_GetSelectParams
+                0x00000000000304a0      0x1da /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x00000000000304a0                ARSTREAM2_RtpSender_GetSelectParams
+ *fill*         0x000000000003067a        0x6 
+ .text.ARSTREAM2_RtpSender_ProcessRtp
+                0x0000000000030680      0x6dd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000030680                ARSTREAM2_RtpSender_ProcessRtp
+ *fill*         0x0000000000030d5d        0x3 
+ .text.ARSTREAM2_RtpSender_ProcessRtcp
+                0x0000000000030d60      0x5ca /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000030d60                ARSTREAM2_RtpSender_ProcessRtcp
+ *fill*         0x000000000003132a        0x6 
+ .text.ARSTREAM2_RtpSender_ProcessEnd
+                0x0000000000031330       0xd2 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000031330                ARSTREAM2_RtpSender_ProcessEnd
+ *fill*         0x0000000000031402        0xe 
+ .text.ARSTREAM2_RtpSender_GetDynamicConfig
+                0x0000000000031410       0x36 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000031410                ARSTREAM2_RtpSender_GetDynamicConfig
+ *fill*         0x0000000000031446        0xa 
+ .text.ARSTREAM2_RtpSender_SetDynamicConfig
+                0x0000000000031450       0xb6 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000031450                ARSTREAM2_RtpSender_SetDynamicConfig
+ *fill*         0x0000000000031506        0xa 
+ .text.ARSTREAM2_RtpSender_GetSdesItem
+                0x0000000000031510      0x185 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000031510                ARSTREAM2_RtpSender_GetSdesItem
+ *fill*         0x0000000000031695        0xb 
+ .text.ARSTREAM2_RtpSender_SetSdesItem
+                0x00000000000316a0      0x26b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x00000000000316a0                ARSTREAM2_RtpSender_SetSdesItem
+ *fill*         0x000000000003190b        0x5 
+ .text.ARSTREAM2_RtpSender_GetPeerSdesItem
+                0x0000000000031910      0x124 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000031910                ARSTREAM2_RtpSender_GetPeerSdesItem
+ *fill*         0x0000000000031a34        0xc 
+ .text.ARSTREAM2_RtpSender_GetMonitoring
+                0x0000000000031a40      0x687 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                0x0000000000031a40                ARSTREAM2_RtpSender_GetMonitoring
+ *fill*         0x00000000000320c7        0x9 
+ .text.ARSTREAM2_RTP_PacketReset
+                0x00000000000320d0       0x8f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000320d0                ARSTREAM2_RTP_PacketReset
+ *fill*         0x000000000003215f        0x1 
+ .text.ARSTREAM2_RTP_PacketCopy
+                0x0000000000032160       0xab /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032160                ARSTREAM2_RTP_PacketCopy
+ *fill*         0x000000000003220b        0x5 
+ .text.ARSTREAM2_RTP_PacketFifoFree
+                0x0000000000032210       0xb8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032210                ARSTREAM2_RTP_PacketFifoFree
+ *fill*         0x00000000000322c8        0x8 
+ .text.ARSTREAM2_RTP_PacketFifoInit
+                0x00000000000322d0      0x30c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000322d0                ARSTREAM2_RTP_PacketFifoInit
+ *fill*         0x00000000000325dc        0x4 
+ .text.ARSTREAM2_RTP_PacketFifoAddQueue
+                0x00000000000325e0       0x7b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000325e0                ARSTREAM2_RTP_PacketFifoAddQueue
+ *fill*         0x000000000003265b        0x5 
+ .text.ARSTREAM2_RTP_PacketFifoRemoveQueue
+                0x0000000000032660       0x9a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032660                ARSTREAM2_RTP_PacketFifoRemoveQueue
+ *fill*         0x00000000000326fa        0x6 
+ .text.ARSTREAM2_RTP_PacketFifoGetBuffer
+                0x0000000000032700       0xab /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032700                ARSTREAM2_RTP_PacketFifoGetBuffer
+ *fill*         0x00000000000327ab        0x5 
+ .text.ARSTREAM2_RTP_PacketFifoBufferAddRef
+                0x00000000000327b0       0x44 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000327b0                ARSTREAM2_RTP_PacketFifoBufferAddRef
+ *fill*         0x00000000000327f4        0xc 
+ .text.ARSTREAM2_RTP_PacketFifoUnrefBuffer
+                0x0000000000032800       0xc8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032800                ARSTREAM2_RTP_PacketFifoUnrefBuffer
+ *fill*         0x00000000000328c8        0x8 
+ .text.ARSTREAM2_RTP_PacketFifoPopFreeItem
+                0x00000000000328d0       0xab /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000328d0                ARSTREAM2_RTP_PacketFifoPopFreeItem
+ *fill*         0x000000000003297b        0x5 
+ .text.ARSTREAM2_RTP_PacketFifoPushFreeItem
+                0x0000000000032980       0x81 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032980                ARSTREAM2_RTP_PacketFifoPushFreeItem
+ *fill*         0x0000000000032a01        0xf 
+ .text.ARSTREAM2_RTP_PacketFifoEnqueueItem
+                0x0000000000032a10       0x9c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032a10                ARSTREAM2_RTP_PacketFifoEnqueueItem
+ *fill*         0x0000000000032aac        0x4 
+ .text.ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedByPriority
+                0x0000000000032ab0      0x11c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032ab0                ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedByPriority
+ *fill*         0x0000000000032bcc        0x4 
+ .text.ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedBySeqNum
+                0x0000000000032bd0      0x134 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032bd0                ARSTREAM2_RTP_PacketFifoEnqueueItemOrderedBySeqNum
+ *fill*         0x0000000000032d04        0xc 
+ .text.ARSTREAM2_RTP_PacketFifoDequeueItem
+                0x0000000000032d10       0xa9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032d10                ARSTREAM2_RTP_PacketFifoDequeueItem
+ *fill*         0x0000000000032db9        0x7 
+ .text.ARSTREAM2_RTP_PacketFifoPeekItem
+                0x0000000000032dc0       0x59 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032dc0                ARSTREAM2_RTP_PacketFifoPeekItem
+ *fill*         0x0000000000032e19        0x7 
+ .text.ARSTREAM2_RTP_PacketFifoDuplicateItem
+                0x0000000000032e20       0xac /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032e20                ARSTREAM2_RTP_PacketFifoDuplicateItem
+ *fill*         0x0000000000032ecc        0x4 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoFillMsgVec
+                0x0000000000032ed0       0xd5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032ed0                ARSTREAM2_RTP_Sender_PacketFifoFillMsgVec
+ *fill*         0x0000000000032fa5        0xb 
+ .text.ARSTREAM2_RTP_Sender_GeneratePacket
+                0x0000000000032fb0      0x1e4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000032fb0                ARSTREAM2_RTP_Sender_GeneratePacket
+ *fill*         0x0000000000033194        0xc 
+ .text.ARSTREAM2_RTP_Sender_FinishPacket
+                0x00000000000331a0      0x14a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000331a0                ARSTREAM2_RTP_Sender_FinishPacket
+ *fill*         0x00000000000332ea        0x6 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoCleanFromMsgVec
+                0x00000000000332f0      0x255 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000332f0                ARSTREAM2_RTP_Sender_PacketFifoCleanFromMsgVec
+ *fill*         0x0000000000033545        0xb 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoCleanFromTimeout
+                0x0000000000033550      0x26a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000033550                ARSTREAM2_RTP_Sender_PacketFifoCleanFromTimeout
+ *fill*         0x00000000000337ba        0x6 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoRandomDrop
+                0x00000000000337c0      0x236 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000337c0                ARSTREAM2_RTP_Sender_PacketFifoRandomDrop
+ *fill*         0x00000000000339f6        0xa 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoFlushQueue
+                0x0000000000033a00      0x194 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000033a00                ARSTREAM2_RTP_Sender_PacketFifoFlushQueue
+ *fill*         0x0000000000033b94        0xc 
+ .text.ARSTREAM2_RTP_Sender_PacketFifoFlush
+                0x0000000000033ba0      0x1ac /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000033ba0                ARSTREAM2_RTP_Sender_PacketFifoFlush
+ *fill*         0x0000000000033d4c        0x4 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoAddFromMsgVec
+                0x0000000000033d50      0xb30 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000033d50                ARSTREAM2_RTP_Receiver_PacketFifoAddFromMsgVec
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoFlushQueue
+                0x0000000000034880      0x113 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000034880                ARSTREAM2_RTP_Receiver_PacketFifoFlushQueue
+ *fill*         0x0000000000034993        0xd 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoFlush
+                0x00000000000349a0      0x11b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x00000000000349a0                ARSTREAM2_RTP_Receiver_PacketFifoFlush
+ *fill*         0x0000000000034abb        0x5 
+ .text.ARSTREAM2_RTP_Receiver_PacketFifoFillMsgVec
+                0x0000000000034ac0      0x163 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                0x0000000000034ac0                ARSTREAM2_RTP_Receiver_PacketFifoFillMsgVec
+ *fill*         0x0000000000034c23        0xd 
+ .text.ARSTREAM2_RTPH264_Sender_FinishStapAPacket
+                0x0000000000034c30      0x110 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.ARSTREAM2_RTPH264_FifoDequeueNalu
+                0x0000000000034d40       0xee /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ *fill*         0x0000000000034e2e        0x2 
+ .text.ARSTREAM2_RTPH264_Receiver_DropFuAPackets
+                0x0000000000034e30       0x80 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .text.ARSTREAM2_RTPH264_Sender_NaluDrop
+                0x0000000000034eb0      0x153 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x0000000000034eb0                ARSTREAM2_RTPH264_Sender_NaluDrop
+ *fill*         0x0000000000035003        0xd 
+ .text.ARSTREAM2_RTPH264_Sender_NaluFifoToPacketFifo
+                0x0000000000035010     0x1187 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x0000000000035010                ARSTREAM2_RTPH264_Sender_NaluFifoToPacketFifo
+ *fill*         0x0000000000036197        0x9 
+ .text.ARSTREAM2_RTPH264_Sender_FifoFlush
+                0x00000000000361a0      0x13b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x00000000000361a0                ARSTREAM2_RTPH264_Sender_FifoFlush
+ *fill*         0x00000000000362db        0x5 
+ .text.ARSTREAM2_RTPH264_Receiver_PacketFifoToAuFifo
+                0x00000000000362e0     0x13fe /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                0x00000000000362e0                ARSTREAM2_RTPH264_Receiver_PacketFifoToAuFifo
+ *fill*         0x00000000000376de        0x2 
+ .text.ARSTREAM2_RTCP_GetPacketType
+                0x00000000000376e0      0x14c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x00000000000376e0                ARSTREAM2_RTCP_GetPacketType
+ *fill*         0x000000000003782c        0x4 
+ .text.ARSTREAM2_RTCP_Sender_ProcessReceiverReport
+                0x0000000000037830      0x2da /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000037830                ARSTREAM2_RTCP_Sender_ProcessReceiverReport
+ *fill*         0x0000000000037b0a        0x6 
+ .text.ARSTREAM2_RTCP_Sender_GenerateSenderReport
+                0x0000000000037b10      0x139 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000037b10                ARSTREAM2_RTCP_Sender_GenerateSenderReport
+ *fill*         0x0000000000037c49        0x7 
+ .text.ARSTREAM2_RTCP_Receiver_ProcessSenderReport
+                0x0000000000037c50      0x341 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000037c50                ARSTREAM2_RTCP_Receiver_ProcessSenderReport
+ *fill*         0x0000000000037f91        0xf 
+ .text.ARSTREAM2_RTCP_Receiver_GenerateReceiverReport
+                0x0000000000037fa0      0x1f7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000037fa0                ARSTREAM2_RTCP_Receiver_GenerateReceiverReport
+ *fill*         0x0000000000038197        0x9 
+ .text.ARSTREAM2_RTCP_GenerateSourceDescription
+                0x00000000000381a0      0x386 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x00000000000381a0                ARSTREAM2_RTCP_GenerateSourceDescription
+ *fill*         0x0000000000038526        0xa 
+ .text.ARSTREAM2_RTCP_ProcessSourceDescription
+                0x0000000000038530      0x608 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000038530                ARSTREAM2_RTCP_ProcessSourceDescription
+ *fill*         0x0000000000038b38        0x8 
+ .text.ARSTREAM2_RTCP_LossReportReset
+                0x0000000000038b40       0x76 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000038b40                ARSTREAM2_RTCP_LossReportReset
+ *fill*         0x0000000000038bb6        0xa 
+ .text.ARSTREAM2_RTCP_LossReportSet
+                0x0000000000038bc0      0x1ba /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000038bc0                ARSTREAM2_RTCP_LossReportSet
+ *fill*         0x0000000000038d7a        0x6 
+ .text.ARSTREAM2_RTCP_GenerateExtendedReport
+                0x0000000000038d80      0x577 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000038d80                ARSTREAM2_RTCP_GenerateExtendedReport
+ *fill*         0x00000000000392f7        0x9 
+ .text.ARSTREAM2_RTCP_ProcessExtendedReport
+                0x0000000000039300      0x6e1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000039300                ARSTREAM2_RTCP_ProcessExtendedReport
+ *fill*         0x00000000000399e1        0xf 
+ .text.ARSTREAM2_RTCP_GetApplicationPacketSubtype
+                0x00000000000399f0      0x15d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x00000000000399f0                ARSTREAM2_RTCP_GetApplicationPacketSubtype
+ *fill*         0x0000000000039b4d        0x3 
+ .text.ARSTREAM2_RTCP_GenerateApplicationClockDelta
+                0x0000000000039b50       0xa3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000039b50                ARSTREAM2_RTCP_GenerateApplicationClockDelta
+ *fill*         0x0000000000039bf3        0xd 
+ .text.ARSTREAM2_RTCP_ProcessApplicationClockDelta
+                0x0000000000039c00      0x4aa /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x0000000000039c00                ARSTREAM2_RTCP_ProcessApplicationClockDelta
+ *fill*         0x000000000003a0aa        0x6 
+ .text.ARSTREAM2_RTCP_GenerateApplicationVideoStats
+                0x000000000003a0b0      0x258 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x000000000003a0b0                ARSTREAM2_RTCP_GenerateApplicationVideoStats
+ *fill*         0x000000000003a308        0x8 
+ .text.ARSTREAM2_RTCP_ProcessApplicationVideoStats
+                0x000000000003a310      0x423 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x000000000003a310                ARSTREAM2_RTCP_ProcessApplicationVideoStats
+ *fill*         0x000000000003a733        0xd 
+ .text.ARSTREAM2_RTCP_Sender_GenerateCompoundPacket
+                0x000000000003a740      0x2d3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x000000000003a740                ARSTREAM2_RTCP_Sender_GenerateCompoundPacket
+ *fill*         0x000000000003aa13        0xd 
+ .text.ARSTREAM2_RTCP_Receiver_GenerateCompoundPacket
+                0x000000000003aa20      0x3d4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x000000000003aa20                ARSTREAM2_RTCP_Receiver_GenerateCompoundPacket
+ *fill*         0x000000000003adf4        0xc 
+ .text.ARSTREAM2_RTCP_Sender_ProcessCompoundPacket
+                0x000000000003ae00      0x320 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x000000000003ae00                ARSTREAM2_RTCP_Sender_ProcessCompoundPacket
+ .text.ARSTREAM2_RTCP_Receiver_ProcessCompoundPacket
+                0x000000000003b120      0x214 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                0x000000000003b120                ARSTREAM2_RTCP_Receiver_ProcessCompoundPacket
+ *fill*         0x000000000003b334        0xc 
+ .text.ARSTREAM2_StreamRecorder_Init
+                0x000000000003b340      0x4f4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x000000000003b340                ARSTREAM2_StreamRecorder_Init
+ *fill*         0x000000000003b834        0xc 
+ .text.ARSTREAM2_StreamRecorder_Free
+                0x000000000003b840      0x121 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x000000000003b840                ARSTREAM2_StreamRecorder_Free
+ *fill*         0x000000000003b961        0xf 
+ .text.ARSTREAM2_StreamRecorder_Stop
+                0x000000000003b970       0x8e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x000000000003b970                ARSTREAM2_StreamRecorder_Stop
+ *fill*         0x000000000003b9fe        0x2 
+ .text.ARSTREAM2_StreamRecorder_SetUntimedMetadata
+                0x000000000003ba00      0x321 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x000000000003ba00                ARSTREAM2_StreamRecorder_SetUntimedMetadata
+ *fill*         0x000000000003bd21        0xf 
+ .text.ARSTREAM2_StreamRecorder_RunThread
+                0x000000000003bd30      0x9ce /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                0x000000000003bd30                ARSTREAM2_StreamRecorder_RunThread
+ *fill*         0x000000000003c6fe        0x2 
+ .text.ARSTREAM2_StreamStats_VideoStatsFileOpen
+                0x000000000003c700      0x2cd /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003c700                ARSTREAM2_StreamStats_VideoStatsFileOpen
+ *fill*         0x000000000003c9cd        0x3 
+ .text.ARSTREAM2_StreamStats_VideoStatsFileClose
+                0x000000000003c9d0       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003c9d0                ARSTREAM2_StreamStats_VideoStatsFileClose
+ .text.ARSTREAM2_StreamStats_VideoStatsFileWrite
+                0x000000000003c9f0      0x189 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003c9f0                ARSTREAM2_StreamStats_VideoStatsFileWrite
+ *fill*         0x000000000003cb79        0x7 
+ .text.ARSTREAM2_StreamStats_RtpStatsFileOpen
+                0x000000000003cb80      0x30e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003cb80                ARSTREAM2_StreamStats_RtpStatsFileOpen
+ *fill*         0x000000000003ce8e        0x2 
+ .text.ARSTREAM2_StreamStats_RtpStatsFileClose
+                0x000000000003ce90       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003ce90                ARSTREAM2_StreamStats_RtpStatsFileClose
+ .text.ARSTREAM2_StreamStats_RtpStatsFileWrite
+                0x000000000003ceb0      0x38a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003ceb0                ARSTREAM2_StreamStats_RtpStatsFileWrite
+ *fill*         0x000000000003d23a        0x6 
+ .text.ARSTREAM2_StreamStats_RtpLossFileOpen
+                0x000000000003d240      0x22d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003d240                ARSTREAM2_StreamStats_RtpLossFileOpen
+ *fill*         0x000000000003d46d        0x3 
+ .text.ARSTREAM2_StreamStats_RtpLossFileClose
+                0x000000000003d470       0x1e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003d470                ARSTREAM2_StreamStats_RtpLossFileClose
+ *fill*         0x000000000003d48e        0x2 
+ .text.ARSTREAM2_StreamStats_RtpLossFileWrite
+                0x000000000003d490      0x171 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                0x000000000003d490                ARSTREAM2_StreamStats_RtpLossFileWrite
+ *fill*         0x000000000003d601        0xf 
+ .text.ARSTREAM2_StreamSender_VideoStatsCallback
+                0x000000000003d610      0x2d5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000003d8e5        0xb 
+ .text.ARSTREAM2_StreamSender_RtpStatsCallback.part.0
+                0x000000000003d8f0      0x2e5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000003dbd5        0xb 
+ .text.ARSTREAM2_StreamSender_RtpStatsCallback
+                0x000000000003dbe0       0x19 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000003dbf9        0x7 
+ .text.ARSTREAM2_StreamSender_Init
+                0x000000000003dc00      0x8ea /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003dc00                ARSTREAM2_StreamSender_Init
+ *fill*         0x000000000003e4ea        0x6 
+ .text.ARSTREAM2_StreamSender_Stop
+                0x000000000003e4f0       0xa9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003e4f0                ARSTREAM2_StreamSender_Stop
+ *fill*         0x000000000003e599        0x7 
+ .text.ARSTREAM2_StreamSender_Free
+                0x000000000003e5a0      0x209 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003e5a0                ARSTREAM2_StreamSender_Free
+ *fill*         0x000000000003e7a9        0x7 
+ .text.ARSTREAM2_StreamSender_SendNNewNalu
+                0x000000000003e7b0      0x2cc /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003e7b0                ARSTREAM2_StreamSender_SendNNewNalu
+ *fill*         0x000000000003ea7c        0x4 
+ .text.ARSTREAM2_StreamSender_SendNewNalu
+                0x000000000003ea80       0x11 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003ea80                ARSTREAM2_StreamSender_SendNewNalu
+ *fill*         0x000000000003ea91        0xf 
+ .text.ARSTREAM2_StreamSender_FlushNaluQueue
+                0x000000000003eaa0       0x45 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003eaa0                ARSTREAM2_StreamSender_FlushNaluQueue
+ *fill*         0x000000000003eae5        0xb 
+ .text.ARSTREAM2_StreamSender_RunThread
+                0x000000000003eaf0      0x6a7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003eaf0                ARSTREAM2_StreamSender_RunThread
+ *fill*         0x000000000003f197        0x9 
+ .text.ARSTREAM2_StreamSender_GetDynamicConfig
+                0x000000000003f1a0      0x115 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003f1a0                ARSTREAM2_StreamSender_GetDynamicConfig
+ *fill*         0x000000000003f2b5        0xb 
+ .text.ARSTREAM2_StreamSender_SetDynamicConfig
+                0x000000000003f2c0      0x228 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003f2c0                ARSTREAM2_StreamSender_SetDynamicConfig
+ *fill*         0x000000000003f4e8        0x8 
+ .text.ARSTREAM2_StreamSender_GetUntimedMetadata
+                0x000000000003f4f0      0x558 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003f4f0                ARSTREAM2_StreamSender_GetUntimedMetadata
+ *fill*         0x000000000003fa48        0x8 
+ .text.ARSTREAM2_StreamSender_SetUntimedMetadata
+                0x000000000003fa50      0xa76 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x000000000003fa50                ARSTREAM2_StreamSender_SetUntimedMetadata
+ *fill*         0x00000000000404c6        0xa 
+ .text.ARSTREAM2_StreamSender_GetPeerUntimedMetadata
+                0x00000000000404d0      0x3a7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x00000000000404d0                ARSTREAM2_StreamSender_GetPeerUntimedMetadata
+ *fill*         0x0000000000040877        0x9 
+ .text.ARSTREAM2_StreamSender_GetMonitoring
+                0x0000000000040880       0x76 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                0x0000000000040880                ARSTREAM2_StreamSender_GetMonitoring
+ *fill*         0x00000000000408f6        0xa 
+ .text.ARSTREAM2_StreamReceiver_AppOutputAuEnqueue
+                0x0000000000040900      0x183 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000040a83        0xd 
+ .text.ARSTREAM2_StreamReceiver_RecorderAuEnqueue
+                0x0000000000040a90      0x183 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000040c13        0xd 
+ .text.ARSTREAM2_StreamReceiver_RtpReceiverAuCallback
+                0x0000000000040c20      0x952 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000041572        0xe 
+ .text.ARSTREAM2_StreamReceiver_StreamRecorderInit
+                0x0000000000041580      0x2ef /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x000000000004186f        0x1 
+ .text.ARSTREAM2_StreamReceiver_H264FilterSpsPpsCallback
+                0x0000000000041870      0x273 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000041ae3        0xd 
+ .text.ARSTREAM2_StreamReceiver_RtpReceiverStatsCallback
+                0x0000000000041af0      0x16d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000041c5d        0x3 
+ .text.ARSTREAM2_StreamReceiver_StreamRecorderFree
+                0x0000000000041c60      0x1c1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x0000000000041e21        0xf 
+ .text.ARSTREAM2_StreamReceiver_Init
+                0x0000000000041e30     0x115d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000041e30                ARSTREAM2_StreamReceiver_Init
+ *fill*         0x0000000000042f8d        0x3 
+ .text.ARSTREAM2_StreamReceiver_Free
+                0x0000000000042f90      0x3b9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000042f90                ARSTREAM2_StreamReceiver_Free
+ *fill*         0x0000000000043349        0x7 
+ .text.ARSTREAM2_StreamReceiver_RunAppOutputThread
+                0x0000000000043350      0xb15 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000043350                ARSTREAM2_StreamReceiver_RunAppOutputThread
+ *fill*         0x0000000000043e65        0xb 
+ .text.ARSTREAM2_StreamReceiver_RunNetworkThread
+                0x0000000000043e70      0xab9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000043e70                ARSTREAM2_StreamReceiver_RunNetworkThread
+ *fill*         0x0000000000044929        0x7 
+ .text.ARSTREAM2_StreamReceiver_StartAppOutput
+                0x0000000000044930      0x2e6 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000044930                ARSTREAM2_StreamReceiver_StartAppOutput
+ *fill*         0x0000000000044c16        0xa 
+ .text.ARSTREAM2_StreamReceiver_StopAppOutput
+                0x0000000000044c20      0x15f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000044c20                ARSTREAM2_StreamReceiver_StopAppOutput
+ *fill*         0x0000000000044d7f        0x1 
+ .text.ARSTREAM2_StreamReceiver_GetSpsPps
+                0x0000000000044d80      0x13c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000044d80                ARSTREAM2_StreamReceiver_GetSpsPps
+ *fill*         0x0000000000044ebc        0x4 
+ .text.ARSTREAM2_StreamReceiver_GetUntimedMetadata
+                0x0000000000044ec0      0x590 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000044ec0                ARSTREAM2_StreamReceiver_GetUntimedMetadata
+ .text.ARSTREAM2_StreamReceiver_SetUntimedMetadata
+                0x0000000000045450      0xaca /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000045450                ARSTREAM2_StreamReceiver_SetUntimedMetadata
+ *fill*         0x0000000000045f1a        0x6 
+ .text.ARSTREAM2_StreamReceiver_GetPeerUntimedMetadata
+                0x0000000000045f20      0x3f5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000045f20                ARSTREAM2_StreamReceiver_GetPeerUntimedMetadata
+ *fill*         0x0000000000046315        0xb 
+ .text.ARSTREAM2_StreamReceiver_StreamRecorderStop.part.0
+                0x0000000000046320      0x2a3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ *fill*         0x00000000000465c3        0xd 
+ .text.ARSTREAM2_StreamReceiver_Stop
+                0x00000000000465d0      0x133 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x00000000000465d0                ARSTREAM2_StreamReceiver_Stop
+ *fill*         0x0000000000046703        0xd 
+ .text.ARSTREAM2_StreamReceiver_StartResender
+                0x0000000000046710      0x528 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000046710                ARSTREAM2_StreamReceiver_StartResender
+ *fill*         0x0000000000046c38        0x8 
+ .text.ARSTREAM2_StreamReceiver_StopResender
+                0x0000000000046c40      0x309 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000046c40                ARSTREAM2_StreamReceiver_StopResender
+ *fill*         0x0000000000046f49        0x7 
+ .text.ARSTREAM2_StreamReceiver_StartRecorder
+                0x0000000000046f50      0x145 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x0000000000046f50                ARSTREAM2_StreamReceiver_StartRecorder
+ *fill*         0x0000000000047095        0xb 
+ .text.ARSTREAM2_StreamReceiver_StopRecorder
+                0x00000000000470a0      0x131 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                0x00000000000470a0                ARSTREAM2_StreamReceiver_StopRecorder
+ *(.gnu.warning)
+
+.fini           0x00000000000471d4        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000471d4        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x00000000000471d4                _fini
+ .fini          0x00000000000471dc        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000048000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000048000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000048000     0x95de
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000048000       0xc1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ *fill*         0x00000000000480c1        0x7 
+ .rodata.str1.8
+                0x00000000000480c8       0x2a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ *fill*         0x00000000000480f2        0x2 
+ .rodata        0x00000000000480f4       0x2c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .rodata.str1.1
+                0x0000000000048120       0xc0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .rodata.str1.8
+                0x00000000000481e0      0x4e8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ *fill*         0x00000000000486c8        0x8 
+ .rodata        0x00000000000486d0       0xaf /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ *fill*         0x000000000004877f        0x1 
+ .rodata.cst4   0x0000000000048780        0x4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .rodata.str1.1
+                0x0000000000048784       0xa6 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                         0xc4 (size before relaxing)
+ *fill*         0x000000000004882a        0x6 
+ .rodata.str1.8
+                0x0000000000048830      0x24b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                        0x283 (size before relaxing)
+ *fill*         0x0000000000048a7b        0x5 
+ .rodata        0x0000000000048a80       0xaf /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .rodata.str1.1
+                0x0000000000048b2f      0x919 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                                        0x98d (size before relaxing)
+ .rodata.str1.8
+                0x0000000000049448     0x1933 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000004ad7b        0x5 
+ .rodata        0x000000000004ad80      0x660 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .rodata.cst8   0x000000000004b3e0       0x18 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *fill*         0x000000000004b3f8        0x8 
+ .rodata.cst16  0x000000000004b400       0x10 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .rodata.str1.1
+                0x000000000004b410       0x7d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000004b48d        0x3 
+ .rodata.str1.8
+                0x000000000004b490       0xb3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ *fill*         0x000000000004b543       0x1d 
+ .rodata        0x000000000004b560       0x2d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .rodata.cst8   0x000000000004b58d       0x18 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .rodata.cst16  0x000000000004b58d       0x10 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .rodata.str1.1
+                0x000000000004b58d       0xb7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                         0xf7 (size before relaxing)
+ *fill*         0x000000000004b644        0x4 
+ .rodata.str1.8
+                0x000000000004b648      0x2ce /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                        0x2f6 (size before relaxing)
+ *fill*         0x000000000004b916        0xa 
+ .rodata        0x000000000004b920      0x5ec /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ *fill*         0x000000000004bf0c        0x4 
+ .rodata.str1.8
+                0x000000000004bf10      0x78d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .rodata.str1.1
+                0x000000000004c69d      0x144 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                                        0x157 (size before relaxing)
+ *fill*         0x000000000004c7e1       0x1f 
+ .rodata        0x000000000004c800      0x2cb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ *fill*         0x000000000004cacb        0x5 
+ .rodata.cst8   0x000000000004cad0       0x10 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .rodata.str1.1
+                0x000000000004cae0       0x8c /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                        0x112 (size before relaxing)
+ *fill*         0x000000000004cb6c        0x4 
+ .rodata.str1.8
+                0x000000000004cb70      0x3e5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                        0x6b5 (size before relaxing)
+ *fill*         0x000000000004cf55        0xb 
+ .rodata        0x000000000004cf60      0x148 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .rodata.cst8   0x000000000004d0a8       0x10 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                         0x20 (size before relaxing)
+ .rodata.str1.1
+                0x000000000004d0b8       0xdf /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                        0x15e (size before relaxing)
+ *fill*         0x000000000004d197        0x1 
+ .rodata.str1.8
+                0x000000000004d198      0x30d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                        0x3a5 (size before relaxing)
+ *fill*         0x000000000004d4a5       0x1b 
+ .rodata        0x000000000004d4c0      0x6ad /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ *fill*         0x000000000004db6d        0x3 
+ .rodata.cst4   0x000000000004db70        0x4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .rodata.str1.1
+                0x000000000004db74       0x37 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                         0xb9 (size before relaxing)
+ *fill*         0x000000000004dbab        0x5 
+ .rodata.str1.8
+                0x000000000004dbb0      0x5bb /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                        0x693 (size before relaxing)
+ *fill*         0x000000000004e16b       0x15 
+ .rodata        0x000000000004e180      0x3ae /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ *fill*         0x000000000004e52e        0x2 
+ .rodata.cst8   0x000000000004e530        0x8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .rodata.str1.1
+                0x000000000004e538      0x17d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                        0x1ad (size before relaxing)
+ *fill*         0x000000000004e6b5        0x3 
+ .rodata.str1.8
+                0x000000000004e6b8      0x785 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                        0x7b5 (size before relaxing)
+ *fill*         0x000000000004ee3d        0x3 
+ .rodata        0x000000000004ee40      0x48d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ *fill*         0x000000000004f2cd        0x3 
+ .rodata.cst8   0x000000000004f2d0        0x8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .rodata.str1.1
+                0x000000000004f2d8       0xf5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                        0x177 (size before relaxing)
+ *fill*         0x000000000004f3cd        0x3 
+ .rodata.str1.8
+                0x000000000004f3d0      0x2b9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                        0x2e9 (size before relaxing)
+ *fill*         0x000000000004f689       0x17 
+ .rodata        0x000000000004f6a0       0xce /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .rodata.str1.1
+                0x000000000004f76e       0xf9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                                        0x132 (size before relaxing)
+ *fill*         0x000000000004f867        0x1 
+ .rodata.str1.8
+                0x000000000004f868      0x6ad /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ *fill*         0x000000000004ff15        0xb 
+ .rodata        0x000000000004ff20       0xa9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .rodata.str1.1
+                0x000000000004ffc9      0x108 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                                        0x1a7 (size before relaxing)
+ *fill*         0x00000000000500d1        0x7 
+ .rodata.str1.8
+                0x00000000000500d8      0x152 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000005022a       0x16 
+ .rodata        0x0000000000050240      0x2cc /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ *fill*         0x000000000005050c        0x4 
+ .rodata.cst8   0x0000000000050510        0x8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .rodata.str1.8
+                0x0000000000050518      0x912 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                        0xa52 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000050e2a      0x1f9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                        0x391 (size before relaxing)
+ *fill*         0x0000000000051023       0x1d 
+ .rodata        0x0000000000051040      0x59e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .rodata.cst8   0x00000000000515de        0x8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000515e0      0x7bc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000515e0      0x7bc /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                0x00000000000515e0                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000051da0     0x40f8
+ *(.eh_frame)
+ .eh_frame      0x0000000000051da0       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x0000000000051de0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000051df8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000051e10       0x18 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000051e28      0x168 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                                        0x180 (size before relaxing)
+ .eh_frame      0x0000000000051f90      0x160 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                        0x178 (size before relaxing)
+ .eh_frame      0x00000000000520f0      0x878 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                                        0x890 (size before relaxing)
+ .eh_frame      0x0000000000052968       0x78 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                                         0x90 (size before relaxing)
+ .eh_frame      0x00000000000529e0      0x328 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                                        0x340 (size before relaxing)
+ .eh_frame      0x0000000000052d08      0x658 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                        0x670 (size before relaxing)
+ .eh_frame      0x0000000000053360      0x7c8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                                        0x7e0 (size before relaxing)
+ .eh_frame      0x0000000000053b28      0x5d0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                        0x5e8 (size before relaxing)
+ .eh_frame      0x00000000000540f8      0x5c0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                        0x5d8 (size before relaxing)
+ .eh_frame      0x00000000000546b8      0x2b8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                        0x2d0 (size before relaxing)
+ .eh_frame      0x0000000000054970      0x5e8 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                        0x600 (size before relaxing)
+ .eh_frame      0x0000000000054f58      0x180 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                        0x198 (size before relaxing)
+ .eh_frame      0x00000000000550d8      0x328 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                                        0x340 (size before relaxing)
+ .eh_frame      0x0000000000055400      0x3b0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                                        0x3c8 (size before relaxing)
+ .eh_frame      0x00000000000557b0      0x6e4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                        0x700 (size before relaxing)
+ .eh_frame      0x0000000000055e94        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000057b30                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000057b30        0x8
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000057b30        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.fini_array     0x0000000000057b38        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000057b38        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000057b40      0x260
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000057b40      0x260 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000057da0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynamic        0x0000000000057da0      0x230
+ *(.dynamic)
+ .dynamic       0x0000000000057da0      0x230 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000057da0                _DYNAMIC
+
+.got            0x0000000000057fd0       0x28
+ *(.got)
+ .got           0x0000000000057fd0       0x28 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000058fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000058000      0x7a0
+ *(.got.plt)
+ .got.plt       0x0000000000058000      0x7a0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000058000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000587a0        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x00000000000587a0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x00000000000587a0                __dso_handle
+
+.tm_clone_table
+                0x00000000000587a8        0x0
+ .tm_clone_table
+                0x00000000000587a8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x00000000000587a8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000000587a8                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x00000000000587a8        0x8
+ *(.dynbss)
+ .dynbss        0x00000000000587a8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000587a8        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *(COMMON)
+                0x00000000000587b0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000000587a9        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000000587b0                . = ALIGN (0x8)
+                0x00000000000587b0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000005a7b0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000005a7b0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000005a7b0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000005a7b0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2a
+ *(.comment)
+ .comment       0x0000000000000000       0x2a /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2b (size before relaxing)
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .comment       0x000000000000002a       0x2b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+ .comment       0x000000000000002a       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000     0x1130
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_aranges
+                0x0000000000000030       0x90 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_aranges
+                0x00000000000000c0       0x50 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_aranges
+                0x0000000000000110      0x1e0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_aranges
+                0x00000000000002f0       0x80 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_aranges
+                0x0000000000000370       0xe0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_aranges
+                0x0000000000000450      0x250 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_aranges
+                0x00000000000006a0      0x1c0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_aranges
+                0x0000000000000860      0x120 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_aranges
+                0x0000000000000980      0x1f0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_aranges
+                0x0000000000000b70       0x90 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_aranges
+                0x0000000000000c00      0x160 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_aranges
+                0x0000000000000d60       0x70 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_aranges
+                0x0000000000000dd0       0xb0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_aranges
+                0x0000000000000e80      0x120 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_aranges
+                0x0000000000000fa0      0x190 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x53361
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0xd7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_info    0x00000000000000d7     0x30fe /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_info    0x00000000000031d5     0x229f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_info    0x0000000000005474     0xfd99 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_info    0x000000000001520d     0x1157 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_info    0x0000000000016364     0x789a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_info    0x000000000001dbfe     0x38a2 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_info    0x00000000000214a0     0x658a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_info    0x0000000000027a2a     0x5c92 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_info    0x000000000002d6bc     0x48fc /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_info    0x0000000000031fb8     0x51c4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_info    0x000000000003717c     0x5ea7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_info    0x000000000003d023     0x34da /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_info    0x00000000000404fd     0x25ce /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_info    0x0000000000042acb     0x563b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_info    0x0000000000048106     0xb25b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_abbrev   0x0000000000000000     0x4559
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0xa0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_abbrev  0x00000000000000a0      0x4f2 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_abbrev  0x0000000000000592      0x3a9 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_abbrev  0x000000000000093b      0x47e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_abbrev  0x0000000000000db9      0x326 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_abbrev  0x00000000000010df      0x3f7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_abbrev  0x00000000000014d6      0x462 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_abbrev  0x0000000000001938      0x65e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_abbrev  0x0000000000001f96      0x539 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_abbrev  0x00000000000024cf      0x508 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_abbrev  0x00000000000029d7      0x4be /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_abbrev  0x0000000000002e95      0x4d2 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_abbrev  0x0000000000003367      0x43d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_abbrev  0x00000000000037a4      0x38d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_abbrev  0x0000000000003b31      0x49f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_abbrev  0x0000000000003fd0      0x589 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_line     0x0000000000000000    0x36d5f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x123 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_line    0x0000000000000123     0x1566 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_line    0x0000000000001689      0xff4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_line    0x000000000000267d    0x11778 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_line    0x0000000000013df5      0x7a4 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_line    0x0000000000014599     0xa80f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_line    0x000000000001eda8     0x1e05 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_line    0x0000000000020bad     0x2a33 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_line    0x00000000000235e0     0x299e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_line    0x0000000000025f7e     0x266d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_line    0x00000000000285eb     0x201a /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_line    0x000000000002a605     0x3b32 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_line    0x000000000002e137     0x11b0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_line    0x000000000002f2e7      0xf58 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_line    0x000000000003023f     0x25a5 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_line    0x00000000000327e4     0x457b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x98c1
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x29e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+                                        0x2a9 (size before relaxing)
+ .debug_str     0x000000000000029e     0x1e13 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+                                       0x21b1 (size before relaxing)
+ .debug_str     0x00000000000020b1      0x1ed /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+                                       0x18d4 (size before relaxing)
+ .debug_str     0x000000000000229e      0x86d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+                                       0x192a (size before relaxing)
+ .debug_str     0x0000000000002b0b      0x187 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+                                        0x890 (size before relaxing)
+ .debug_str     0x0000000000002c92      0x4fa /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+                                       0x14ff (size before relaxing)
+ .debug_str     0x000000000000318c      0x56f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+                                        0xfcf (size before relaxing)
+ .debug_str     0x00000000000036fb     0x1f51 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+                                       0x2f41 (size before relaxing)
+ .debug_str     0x000000000000564c      0xdd3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+                                       0x2acd (size before relaxing)
+ .debug_str     0x000000000000641f      0x44b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+                                       0x1cde (size before relaxing)
+ .debug_str     0x000000000000686a      0x382 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+                                       0x225f (size before relaxing)
+ .debug_str     0x0000000000006bec      0x87e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+                                       0x18e1 (size before relaxing)
+ .debug_str     0x000000000000746a      0xe1f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+                                       0x1b7e (size before relaxing)
+ .debug_str     0x0000000000008289      0x2b2 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+                                        0xddf (size before relaxing)
+ .debug_str     0x000000000000853b      0x715 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+                                       0x252f (size before relaxing)
+ .debug_str     0x0000000000008c50      0xc71 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+                                       0x463d (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x9eee5
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x3d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_loc     0x000000000000003d     0x309f /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_loc     0x00000000000030dc     0x1afe /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_loc     0x0000000000004bda    0x2f980 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_loc     0x000000000003455a     0x182d /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_loc     0x0000000000035d87    0x2d7c3 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_loc     0x000000000006354a     0x3569 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_loc     0x0000000000066ab3     0x7044 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_loc     0x000000000006daf7     0x6c3e /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_loc     0x0000000000074735     0x5545 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_loc     0x0000000000079c7a     0x5d99 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_loc     0x000000000007fa13     0xde28 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_loc     0x000000000008d83b     0x21b7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_loc     0x000000000008f9f2     0x21b1 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_loc     0x0000000000091ba3     0x39d7 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_loc     0x000000000009557a     0x996b /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000    0x139c0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/gen/Sources/arstream2_error.c.o
+ .debug_ranges  0x0000000000000020      0x6b0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter.c.o
+ .debug_ranges  0x00000000000006d0      0x580 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_filter_error.c.o
+ .debug_ranges  0x0000000000000c50     0x5830 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_parser.c.o
+ .debug_ranges  0x0000000000006480      0x340 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_sei.c.o
+ .debug_ranges  0x00000000000067c0     0x50b0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264_writer.c.o
+ .debug_ranges  0x000000000000b870      0x580 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_h264.c.o
+ .debug_ranges  0x000000000000bdf0      0xd40 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_receiver.c.o
+ .debug_ranges  0x000000000000cb30      0xfd0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_sender.c.o
+ .debug_ranges  0x000000000000db00      0x7f0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp.c.o
+ .debug_ranges  0x000000000000e2f0      0xf20 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtp_h264.c.o
+ .debug_ranges  0x000000000000f210     0x1f10 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_rtcp.c.o
+ .debug_ranges  0x0000000000011120      0x680 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_recorder.c.o
+ .debug_ranges  0x00000000000117a0      0x6c0 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_stats.c.o
+ .debug_ranges  0x0000000000011e60      0x630 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_sender.c.o
+ .debug_ranges  0x0000000000012490     0x1530 /home/petar/project_ws/build/parrot_arsdk/arsdk/src/ARSDKBuildUtils/out/arsdk-native/build/libARStream2/obj/src/arstream2_stream_receiver.c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/arsdk-native/build/libARStream2/libarstream2.so elf64-x86-64)

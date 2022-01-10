@@ -1,0 +1,20 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/callback_queue_interface.h:39[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/callback_queue.h:38[m[K,
+                 from [01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_motor_model.h:35[m[K,
+                 from [01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_motor_model.cpp:21[m[K:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_motor_model.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboMotorModel::VelocityCallback(const ActuatorsConstPtr&)[m[K’:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_motor_model.cpp:129:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  129 |                  [01;35m[K"You tried to access index %d of the MotorSpeed message array which is of size %d."[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  130 |                  motor_number_, [32m[Krot_velocities->angular_velocities.size()[m[K);
+      |                                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                        [32m[K|[m[K
+      |                                                                        [32m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_motor_model.cpp:129:98:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  129 |                  "You tried to access index %d of the MotorSpeed message array which is of size [01;36m[K%d[m[K.",
+      |                                                                                                 [01;36m[K~^[m[K
+      |                                                                                                  [01;36m[K|[m[K
+      |                                                                                                  [01;36m[Kint[m[K
+      |                                                                                                 [32m[K%ld[m[K

@@ -1,0 +1,54 @@
+# Blender MTL File: 'arena.blend'
+# Material Count: 4
+
+newmtl Material
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 10.000000 C:\\Users\\horva\\Downloads\\blender\\textures\\brick_moss_001_nor_gl_4k.exr
+map_Kd C:\\Users\\horva\\Downloads\\blender\\textures\\brick_moss_001_diff_4k.jpg
+map_Ns C:\\Users\\horva\\Downloads\\blender\\textures\\brick_moss_001_rough_4k.jpg
+
+newmtl Material.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.000000 C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_nor_gl_4k.exr
+map_Kd C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_diff_4k.jpg
+map_Ns C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_rough_4k.jpg
+
+newmtl Material.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.000000 C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_nor_gl_4k.exr
+map_Kd C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_diff_4k.jpg
+map_Ns C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_rough_4k.jpg
+
+newmtl Material.003
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.000000 C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_nor_gl_4k.exr
+map_Kd C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_diff_4k.jpg
+map_Ns C:\\Users\\horva\\Downloads\\blender\\textures\\red_bricks_04_rough_4k.jpg

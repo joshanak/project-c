@@ -1,0 +1,7 @@
+Symlinking /home/petar/project_ws/devel/share/map_server/cmake/map_serverConfig-version.cmake
+Symlinking /home/petar/project_ws/devel/share/map_server/cmake/map_serverConfig.cmake
+Symlinking /home/petar/project_ws/devel/lib/libmap_server_image_loader.so
+Symlinking /home/petar/project_ws/devel/lib/map_server/map_server
+Symlinking /home/petar/project_ws/devel/lib/map_server/rtest
+Symlinking /home/petar/project_ws/devel/lib/map_server/map_saver
+Symlinking /home/petar/project_ws/devel/lib/pkgconfig/map_server.pc

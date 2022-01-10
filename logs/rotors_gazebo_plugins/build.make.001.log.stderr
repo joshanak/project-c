@@ -1,0 +1,23 @@
+In file included from [01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_wind_plugin.cpp:22[m[K:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:[m[K In constructor ‘[01m[Kgazebo::GazeboWindPlugin::GazeboWindPlugin()[m[K’:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_wind_plugin.h:59:51:[m[K [01;31m[Kerror: [m[K‘[01m[KWIND[m[K’ is not a member of ‘[01m[Kmav_msgs::default_topics[m[K’
+   59 |         wind_pub_topic_(mav_msgs::default_topics::[01;31m[KWIND[m[K),
+      |                                                   [01;31m[K^~~~[m[K
+In file included from [01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_bag_plugin.cpp:22[m[K:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_bag_plugin.h:[m[K In constructor ‘[01m[Kgazebo::GazeboBagPlugin::GazeboBagPlugin()[m[K’:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_bag_plugin.h:74:47:[m[K [01;31m[Kerror: [m[K‘[01m[KWIND[m[K’ is not a member of ‘[01m[Kmav_msgs::default_topics[m[K’
+   74 |         wind_topic_(mav_msgs::default_topics::[01;31m[KWIND[m[K),
+      |                                               [01;31m[K^~~~[m[K
+In file included from [01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_odometry_plugin.cpp:22[m[K:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_odometry_plugin.h:[m[K In constructor ‘[01m[Kgazebo::GazeboOdometryPlugin::GazeboOdometryPlugin()[m[K’:
+[01m[K/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_odometry_plugin.h:79:55:[m[K [01;31m[Kerror: [m[K‘[01m[KVELOCITY_RELATIVE[m[K’ is not a member of ‘[01m[Kmav_msgs::default_topics[m[K’
+   79 |         velocity_pub_topic_(mav_msgs::default_topics::[01;31m[KVELOCITY_RELATIVE[m[K),
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rotors_gazebo_wind_plugin.dir/build.make:63: CMakeFiles/rotors_gazebo_wind_plugin.dir/src/gazebo_wind_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1790: CMakeFiles/rotors_gazebo_wind_plugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/rotors_gazebo_odometry_plugin.dir/build.make:63: CMakeFiles/rotors_gazebo_odometry_plugin.dir/src/gazebo_odometry_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3269: CMakeFiles/rotors_gazebo_odometry_plugin.dir/all] Error 2
+make[2]: *** [CMakeFiles/rotors_gazebo_bag_plugin.dir/build.make:63: CMakeFiles/rotors_gazebo_bag_plugin.dir/src/gazebo_bag_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1576: CMakeFiles/rotors_gazebo_bag_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

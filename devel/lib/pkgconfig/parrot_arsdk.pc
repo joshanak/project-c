@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/parrot_arsdk/lib/pkgconfig/parrot_arsdk.pc

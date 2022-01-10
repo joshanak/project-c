@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake

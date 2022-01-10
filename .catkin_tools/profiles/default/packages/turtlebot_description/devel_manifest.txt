@@ -1,0 +1,5 @@
+turtlebot/turtlebot_description
+/home/petar/project_ws/devel/.private/turtlebot_description/cmake.lock /home/petar/project_ws/devel/./cmake.lock
+/home/petar/project_ws/devel/.private/turtlebot_description/share/turtlebot_description/cmake/turtlebot_descriptionConfig-version.cmake /home/petar/project_ws/devel/share/turtlebot_description/cmake/turtlebot_descriptionConfig-version.cmake
+/home/petar/project_ws/devel/.private/turtlebot_description/share/turtlebot_description/cmake/turtlebot_descriptionConfig.cmake /home/petar/project_ws/devel/share/turtlebot_description/cmake/turtlebot_descriptionConfig.cmake
+/home/petar/project_ws/devel/.private/turtlebot_description/lib/pkgconfig/turtlebot_description.pc /home/petar/project_ws/devel/lib/pkgconfig/turtlebot_description.pc

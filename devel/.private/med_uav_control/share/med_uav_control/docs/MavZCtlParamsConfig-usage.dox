@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="mav_msgs" pkg="urs_solutio" type="mav_msgs">
+  <param name="z_kp" type="double" value="0.5" />
+  <param name="z_ki" type="double" value="0.125" />
+  <param name="z_kd" type="double" value="0.0" />
+  <param name="vz_kp" type="double" value="75.0" />
+  <param name="vz_ki" type="double" value="10.0" />
+  <param name="vz_kd" type="double" value="0.41472" />
+</node>
+\endverbatim
+

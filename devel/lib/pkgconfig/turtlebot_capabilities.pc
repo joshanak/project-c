@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/turtlebot_capabilities/lib/pkgconfig/turtlebot_capabilities.pc

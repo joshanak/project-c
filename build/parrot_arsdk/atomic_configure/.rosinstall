@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/petar/project_ws/devel/.private/parrot_arsdk/setup.sh

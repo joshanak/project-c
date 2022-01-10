@@ -1,0 +1,8 @@
+prefix=/home/petar/project_ws/install
+
+Name: med_uav_description
+Description: Description of med_uav_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

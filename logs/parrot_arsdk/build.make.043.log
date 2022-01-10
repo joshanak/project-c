@@ -1,0 +1,4 @@
+[  0%] Built target ARSDK_MKDIR
+[ 88%] Built target ARSDKBuildUtils
+[100%] [34m[1mPopulating ARDroneSDK to devel space: /home/petar/project_ws/build/parrot_arsdk/arsdk[0m
+[100%] Built target ARSDKPopulate

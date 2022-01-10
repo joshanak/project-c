@@ -1,0 +1,17 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~x_kp" : \b [double] X ctl PID P gain min: 0.0, default: 0.01, max: 1000.0
+- \b "~x_ki" : \b [double] X ctl PID I gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~x_kd" : \b [double] X ctl PID D gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~vx_kp" : \b [double] Vx ctl PID P gain min: 0.0, default: 0.01, max: 1000.0
+- \b "~vx_ki" : \b [double] Vx ctl PID I gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~vx_kd" : \b [double] Vx ctl PID D gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~y_kp" : \b [double] Y ctl PID P gain min: 0.0, default: 0.01, max: 1000.0
+- \b "~y_ki" : \b [double] Y ctl PID I gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~y_kd" : \b [double] Y ctl PID D gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~vy_kp" : \b [double] Vy ctl PID P gain min: 0.0, default: 0.01, max: 1000.0
+- \b "~vy_ki" : \b [double] Vy ctl PID I gain min: 0.0, default: 0.0, max: 1000.0
+- \b "~vy_kd" : \b [double] Vy ctl PID D gain min: 0.0, default: 0.0, max: 1000.0
+

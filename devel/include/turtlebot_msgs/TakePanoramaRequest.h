@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/turtlebot_msgs/include/turtlebot_msgs/TakePanoramaRequest.h

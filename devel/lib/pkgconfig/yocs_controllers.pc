@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/yocs_controllers/lib/pkgconfig/yocs_controllers.pc

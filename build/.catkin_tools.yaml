@@ -1,0 +1,6 @@
+devel_space: /home/petar/project_ws/devel
+install: false
+install_space: /home/petar/project_ws/install
+profile: default
+source_space: /home/petar/project_ws/src
+workspace: /home/petar/project_ws

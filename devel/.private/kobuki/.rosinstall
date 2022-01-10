@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/petar/project_ws/devel/.private/kobuki/setup.sh

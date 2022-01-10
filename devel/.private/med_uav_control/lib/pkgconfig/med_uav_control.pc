@@ -1,0 +1,8 @@
+prefix=/home/petar/project_ws/devel/.private/med_uav_control
+
+Name: med_uav_control
+Description: Description of med_uav_control
+Version: 0.0.0
+Cflags: -I/home/petar/project_ws/devel/.private/med_uav_control/include
+Libs: -L${prefix}/lib 
+Requires: 

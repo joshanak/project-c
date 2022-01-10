@@ -1,0 +1,46 @@
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:[m[K In member function ‘[01m[Kstd::pair<float, float> turtlebot_rrt::RRTPlanner::GetRandomPoint()[m[K’:
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:159:10:[m[K [01;31m[Kerror: [m[K‘[01m[Krandom_device[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  159 |     std::[01;31m[Krandom_device[m[K rd;
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:160:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt19937[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  160 |     std::[01;31m[Kmt19937[m[K gen(rd());
+      |          [01;31m[K^~~~~~~[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:160:10:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/random.hpp:43[m[K,
+                 from [01m[K/home/petar/project_ws/src/turtlebot_rrt/include/turtlebot_rrt/turtlebot_rrt.h:62[m[K,
+                 from [01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:37[m[K:
+[01m[K/usr/include/boost/random/mersenne_twister.hpp:624:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::random::mt19937[m[K’
+  624 |     11,0xffffffff,7,0x9d2c5680,15,0xefc60000,18,1812433253> [01;36m[Kmt19937[m[K;
+      |                                                             [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/boost/random/mersenne_twister.hpp:624:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::random::mt19937[m[K’
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:163:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kuniform_int_distribution[m[K’?
+  163 |     std::[01;31m[Kuniform_real_distribution[m[K<> x(-map_width, map_width);
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |          [32m[Kuniform_int_distribution[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:163:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  163 |     std::uniform_real_distribution<[01;31m[K>[m[K x(-map_width, map_width);
+      |                                    [01;31m[K^[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:163:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  163 |     std::uniform_real_distribution<> [01;31m[Kx[m[K(-map_width, map_width);
+      |                                      [01;31m[K^[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:164:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kuniform_real_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kuniform_int_distribution[m[K’?
+  164 |     std::[01;31m[Kuniform_real_distribution[m[K<> y(-map_height, map_height);
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |          [32m[Kuniform_int_distribution[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:164:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  164 |     std::uniform_real_distribution<[01;31m[K>[m[K y(-map_height, map_height);
+      |                                    [01;31m[K^[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:164:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  164 |     std::uniform_real_distribution<> [01;31m[Ky[m[K(-map_height, map_height);
+      |                                      [01;31m[K^[m[K
+      |                                      [32m[Kyn[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:166:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+  166 |     random_point.first = x([01;31m[Kgen[m[K);
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:[m[K In member function ‘[01m[Kstd::vector<geometry_msgs::PoseStamped_<std::allocator<void> > > turtlebot_rrt::RRTPlanner::BuildPlan(int, const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:394:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ has not been declared
+  394 |           pos.pose.orientation = [01;31m[Ktf[m[K::createQuaternionMsgFromYaw(0);
+      |                                  [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/turtlebot_rrt.dir/build.make:63: CMakeFiles/turtlebot_rrt.dir/src/turtlebot_rrt.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1908: CMakeFiles/turtlebot_rrt.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

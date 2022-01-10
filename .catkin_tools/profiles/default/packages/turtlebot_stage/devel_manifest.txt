@@ -1,0 +1,6 @@
+turtlebot_simulator/turtlebot_stage
+/home/petar/project_ws/devel/.private/turtlebot_stage/cmake.lock /home/petar/project_ws/devel/./cmake.lock
+/home/petar/project_ws/devel/.private/turtlebot_stage/etc/catkin/profile.d/25.turtlebot-stage.sh /home/petar/project_ws/devel/etc/catkin/profile.d/25.turtlebot-stage.sh
+/home/petar/project_ws/devel/.private/turtlebot_stage/share/turtlebot_stage/cmake/turtlebot_stageConfig.cmake /home/petar/project_ws/devel/share/turtlebot_stage/cmake/turtlebot_stageConfig.cmake
+/home/petar/project_ws/devel/.private/turtlebot_stage/share/turtlebot_stage/cmake/turtlebot_stageConfig-version.cmake /home/petar/project_ws/devel/share/turtlebot_stage/cmake/turtlebot_stageConfig-version.cmake
+/home/petar/project_ws/devel/.private/turtlebot_stage/lib/pkgconfig/turtlebot_stage.pc /home/petar/project_ws/devel/lib/pkgconfig/turtlebot_stage.pc

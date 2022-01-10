@@ -1,0 +1,8 @@
+prefix=/home/petar/project_ws/install
+
+Name: med_uav_control
+Description: Description of med_uav_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

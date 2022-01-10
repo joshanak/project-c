@@ -1,0 +1,4 @@
+Symlinking /home/petar/project_ws/devel/etc/catkin/profile.d/25.turtlebot-stdr.sh
+Symlinking /home/petar/project_ws/devel/share/turtlebot_stdr/cmake/turtlebot_stdrConfig-version.cmake
+Symlinking /home/petar/project_ws/devel/share/turtlebot_stdr/cmake/turtlebot_stdrConfig.cmake
+Symlinking /home/petar/project_ws/devel/lib/pkgconfig/turtlebot_stdr.pc

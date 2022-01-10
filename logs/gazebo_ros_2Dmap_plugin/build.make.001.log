@@ -1,0 +1,10 @@
+[  0%] Built target gazebo_ros_2Dmap_plugin_xacro_generated_to_devel_space_
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_2Dmap_plugin.dir/src/gazebo_2Dmap_plugin.cpp.o[0m
+In file included from [01m[K/home/petar/project_ws/src/gazebo_ros_2Dmap_plugin/src/gazebo_2Dmap_plugin.cpp:21[m[K:
+[01m[K/home/petar/project_ws/src/gazebo_ros_2Dmap_plugin/include/gazebo_2Dmap_plugin.h:36:10:[m[K [01;31m[Kfatal error: [m[Kcostmap_2d/costmap_2d_ros.h: No such file or directory
+   36 | #include [01;31m[K<costmap_2d/costmap_2d_ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_2Dmap_plugin.dir/build.make:63: CMakeFiles/gazebo_2Dmap_plugin.dir/src/gazebo_2Dmap_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1299: CMakeFiles/gazebo_2Dmap_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

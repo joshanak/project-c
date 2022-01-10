@@ -1,0 +1,41 @@
+<launch>
+<plugin name='gazebo_occupancy_map' filename='libgazebo_2Dmap_plugin.so'>
+    <map_resolution>0.1</map_resolution> <!-- in meters, optional, default 0.1 -->
+    <map_height>0.3</map_height>         <!-- in meters, optional, default 0.3 -->
+    <map_size_x>10</map_size_x>          <!-- in meters, optional, default 10 -->
+    <map_size_y>10</map_size_y>          <!-- in meters, optional, default 10 -->
+    <init_robot_x>0</init_robot_x>          <!-- x coordinate in meters, optional, default 0 -->
+    <init_robot_y>0</init_robot_y>          <!-- y coordinate in meters, optional, default 0 -->
+</plugin>
+
+<arg name="name" default="bebop" />
+    <arg name="x" default="1.5" />
+    <arg name="y" default="1.0" />
+    <arg name="z" default="0.00" />
+    <arg name="wind_force" default="0.0"/>
+    <arg name="wind_start" default="5.0"/>
+    <arg name="wind_duration" default="10.0"/>
+    <arg name="wind_direction_x" default="1.0"/>
+    <arg name="wind_direction_y" default="0.0"/>
+    <arg name="wind_direction_z" default="0.0"/>
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="paused" value="false" />
+        <arg name="use_sim_time" value="true"/>
+        <arg name="world_name" value = "/home/petar/project_ws/src/drone_navigation/src/stl_map/export.world"/>
+        <arg name="verbose" value="true" />
+    </include>
+    
+    <include file="$(find med_uav_description)/launch/spawn_bebop.launch">
+        <arg name="name" value="$(arg name)" />
+        <arg name="x" value="$(arg x)"/>
+        <arg name="y" value="$(arg y)"/>
+        <arg name="z" value="$(arg z)"/>
+        <arg name="wind_force" value="$(arg wind_force)"/>
+        <arg name="wind_start" value="$(arg wind_start)"/>
+        <arg name="wind_duration" value="$(arg wind_duration)"/>
+        <arg name="wind_direction_x" value="$(arg wind_direction_x)"/>
+        <arg name="wind_direction_y" value="$(arg wind_direction_y)"/>
+        <arg name="wind_direction_z" value="$(arg wind_direction_z)"/>
+    </include>
+</launch>

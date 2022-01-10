@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/rotate_recovery/lib/pkgconfig/rotate_recovery.pc

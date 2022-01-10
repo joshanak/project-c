@@ -1,0 +1,2 @@
+kobuki/kobuki
+/home/petar/project_ws/devel/.private/kobuki/cmake.lock /home/petar/project_ws/devel/./cmake.lock

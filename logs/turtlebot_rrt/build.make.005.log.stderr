@@ -1,0 +1,7 @@
+[01m[K/home/petar/project_ws/src/turtlebot_rrt/src/turtlebot_rrt.cc:39:10:[m[K [01;31m[Kfatal error: [m[Krand.h: No such file or directory
+   39 | #include [01;31m[K<rand.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/turtlebot_rrt.dir/build.make:63: CMakeFiles/turtlebot_rrt.dir/src/turtlebot_rrt.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1908: CMakeFiles/turtlebot_rrt.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

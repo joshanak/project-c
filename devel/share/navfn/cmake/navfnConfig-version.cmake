@@ -1,0 +1,1 @@
+/home/petar/project_ws/devel/.private/navfn/share/navfn/cmake/navfnConfig-version.cmake

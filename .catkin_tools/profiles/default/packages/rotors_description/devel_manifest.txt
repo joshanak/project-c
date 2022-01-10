@@ -1,0 +1,5 @@
+rotors_simulator/rotors_description
+/home/petar/project_ws/devel/.private/rotors_description/cmake.lock /home/petar/project_ws/devel/./cmake.lock
+/home/petar/project_ws/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake /home/petar/project_ws/devel/share/rotors_description/cmake/rotors_descriptionConfig-version.cmake
+/home/petar/project_ws/devel/.private/rotors_description/share/rotors_description/cmake/rotors_descriptionConfig.cmake /home/petar/project_ws/devel/share/rotors_description/cmake/rotors_descriptionConfig.cmake
+/home/petar/project_ws/devel/.private/rotors_description/lib/pkgconfig/rotors_description.pc /home/petar/project_ws/devel/lib/pkgconfig/rotors_description.pc

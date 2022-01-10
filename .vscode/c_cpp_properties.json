@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/petar/project_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/petar/project_ws/src/mav_comm/mav_msgs/include/**",
+        "/home/petar/project_ws/src/mav_comm/planning_msgs/include/**",
+        "/home/petar/project_ws/src/rotors_simulator/rotors_control/include/**",
+        "/home/petar/project_ws/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/petar/project_ws/src/rotors_simulator/rotors_joy_interface/include/**",
+        "/home/petar/catkin_ws/src/turtlecontrol/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

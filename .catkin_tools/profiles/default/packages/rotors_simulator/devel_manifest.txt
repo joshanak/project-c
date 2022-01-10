@@ -1,0 +1,2 @@
+rotors_simulator/rotors_simulator
+/home/petar/project_ws/devel/.private/rotors_simulator/cmake.lock /home/petar/project_ws/devel/./cmake.lock
