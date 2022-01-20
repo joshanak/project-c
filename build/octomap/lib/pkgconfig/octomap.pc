@@ -1,0 +1,10 @@
+prefix=/home/petar/project_ws/devel
+libdir=/home/petar/project_ws/devel/lib
+includedir=/home/petar/project_ws/devel/include
+
+Name: octomap
+Description: octomap
+Requires: 
+Version: 1.9.7
+Libs: -L${libdir}  -loctomap -loctomath
+Cflags: -I${includedir} 

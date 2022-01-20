@@ -1,0 +1,2911 @@
+
+
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:71 (FIND_PACKAGE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.cpp:27:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::pivotPoint() const’:
+manipulatedCameraFrame.h:75:34: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   75 |  Vec pivotPoint() const {{ return pivotPoint_; }}
+      |                                  ^~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.cpp:27:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::sceneUpVector() const’:
+manipulatedCameraFrame.h:171:37: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  171 |  Vec sceneUpVector() const {{ return sceneUpVector_; }}
+      |                                     ^~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from qglviewer.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from camera.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from camera.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from camera.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from camera.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from camera.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.cpp:24:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.cpp:26:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::pivotPoint() const’:
+manipulatedCameraFrame.h:75:34: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   75 |  Vec pivotPoint() const {{ return pivotPoint_; }}
+      |                                  ^~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.cpp:26:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::sceneUpVector() const’:
+manipulatedCameraFrame.h:171:37: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  171 |  Vec sceneUpVector() const {{ return sceneUpVector_; }}
+      |                                     ^~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+camera.cpp: In member function ‘qglviewer::Vec qglviewer::Camera::pointUnderPixel(const QPoint&, bool&) const’:
+camera.cpp:979:9: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  979 |  return point;
+      |         ^~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from camera.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from manipulatedFrame.h:28,
+                 from manipulatedFrame.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from manipulatedFrame.h:28,
+                 from manipulatedFrame.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.h:26,
+                 from manipulatedFrame.h:28,
+                 from manipulatedFrame.cpp:24:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from manipulatedFrame.cpp:25:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::pivotPoint() const’:
+manipulatedCameraFrame.h:75:34: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   75 |  Vec pivotPoint() const {{ return pivotPoint_; }}
+      |                                  ^~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from manipulatedFrame.cpp:25:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::sceneUpVector() const’:
+manipulatedCameraFrame.h:171:37: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  171 |  Vec sceneUpVector() const {{ return sceneUpVector_; }}
+      |                                     ^~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from manipulatedFrame.h:28,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from manipulatedFrame.h:28,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.h:26,
+                 from manipulatedFrame.h:28,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from manipulatedCameraFrame.cpp:24:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::pivotPoint() const’:
+manipulatedCameraFrame.h:75:34: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   75 |  Vec pivotPoint() const {{ return pivotPoint_; }}
+      |                                  ^~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from manipulatedCameraFrame.cpp:24:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::sceneUpVector() const’:
+manipulatedCameraFrame.h:171:37: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  171 |  Vec sceneUpVector() const {{ return sceneUpVector_; }}
+      |                                     ^~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from manipulatedFrame.h:26,
+                 from manipulatedCameraFrame.h:26,
+                 from manipulatedCameraFrame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from frame.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from frame.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In constructor ‘qglviewer::Frame::Frame(const qglviewer::Vec&, const qglviewer::Quaternion&)’:
+frame.cpp:46:74: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   46 |  : t_(position), q_(orientation), constraint_(NULL), referenceFrame_(NULL)
+      |                                                                          ^
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘void qglviewer::Frame::translate(const qglviewer::Vec&)’:
+frame.cpp:329:13: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  329 |  Vec tbis = t;
+      |             ^
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::position() const’:
+frame.cpp:541:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  541 |   return t_;
+      |          ^~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::inverseCoordinatesOf(const qglviewer::Vec&) const’:
+frame.cpp:718:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  718 |  Vec res = src;
+      |            ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp:724:9: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  724 |  return res;
+      |         ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::coordinatesOfFrom(const qglviewer::Vec&, const qglviewer::Frame*) const’:
+frame.cpp:752:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  752 |   return src;
+      |          ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::coordinatesOfIn(const qglviewer::Vec&, const qglviewer::Frame*) const’:
+frame.cpp:767:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  767 |  Vec res = src;
+      |            ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp:779:9: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  779 |  return res;
+      |         ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::inverseTransformOf(const qglviewer::Vec&) const’:
+frame.cpp:859:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  859 |  Vec res = src;
+      |            ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp:865:9: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  865 |  return res;
+      |         ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::transformOfFrom(const qglviewer::Vec&, const qglviewer::Frame*) const’:
+frame.cpp:893:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  893 |   return src;
+      |          ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘qglviewer::Vec qglviewer::Frame::transformOfIn(const qglviewer::Vec&, const qglviewer::Frame*) const’:
+frame.cpp:908:15: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  908 |  Vec    res = src;
+      |               ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp:920:9: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  920 |  return res;
+      |         ^~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+frame.cpp: In member function ‘void qglviewer::Frame::projectOnLine(const qglviewer::Vec&, const qglviewer::Vec&)’:
+frame.cpp:1141:13: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+ 1141 |  Vec proj = shift;
+      |             ^~~~~
+In file included from constraint.h:26,
+                 from frame.h:29,
+                 from frame.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from saveSnapshot.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.cpp:23:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.cpp:23:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from constraint.cpp:25:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from constraint.cpp:25:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.cpp:25:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.cpp:26:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::pivotPoint() const’:
+manipulatedCameraFrame.h:75:34: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   75 |  Vec pivotPoint() const {{ return pivotPoint_; }}
+      |                                  ^~~~~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from constraint.cpp:26:
+manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::sceneUpVector() const’:
+manipulatedCameraFrame.h:171:37: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  171 |  Vec sceneUpVector() const {{ return sceneUpVector_; }}
+      |                                     ^~~~~~~~~~~~~~
+In file included from constraint.h:26,
+                 from constraint.cpp:23:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from frame.h:29,
+                 from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from keyFrameInterpolator.h:31,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from quaternion.h:26,
+                 from keyFrameInterpolator.h:29,
+                 from camera.h:26,
+                 from qglviewer.h:26,
+                 from keyFrameInterpolator.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from quaternion.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from quaternion.h:26,
+                 from quaternion.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from quaternion.h:26,
+                 from quaternion.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from quaternion.h:26,
+                 from quaternion.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+quaternion.cpp: In member function ‘qglviewer::Vec qglviewer::Quaternion::axis() const’:
+quaternion.cpp:225:43: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  225 |  return (acos(q[3]) <= M_PI/2.0) ? res : -res;
+      |                                           ^~~
+In file included from quaternion.h:26,
+                 from quaternion.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from vec.cpp:24:
+vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from vec.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from vec.cpp:24:
+vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from vec.cpp:24:
+vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BackFaceCullingOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/BSPSortMethod.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/Exporter.cpp:45:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/ParserGL.cpp:49:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+VRender/Primitive.cpp:165:15: warning: ‘std::ostream& vrender::operator<<(std::ostream&, const vrender::Feedback3DColor&)’ has not been declared within ‘vrender’
+  165 | std::ostream& vrender::operator<<(std::ostream& o,const Feedback3DColor& f)
+      |               ^~~~~~~
+In file included from VRender/Primitive.cpp:47:
+VRender/Primitive.h:105:24: note: only here as a ‘friend’
+  105 |   friend std::ostream& operator<<(std::ostream&,const Feedback3DColor&) ;
+      |                        ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/TopologicalSortMethod.cpp:48:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VisibilityOptimizer.cpp:46:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+VRender/Vector2.cpp:94:9: warning: ‘vrender::Vector2 vrender::operator-(const vrender::Vector2&)’ has not been declared within ‘vrender’
+   94 | Vector2 vrender::operator- (const Vector2& u)
+      |         ^~~~~~~
+In file included from VRender/Vector2.cpp:45:
+VRender/Vector2.h:117:19: note: only here as a ‘friend’
+  117 |    friend Vector2 operator- (const Vector2&);
+      |                   ^~~~~~~~
+VRender/Vector3.cpp:125:9: warning: ‘vrender::Vector3 vrender::operator*(double, const vrender::Vector3&)’ has not been declared within ‘vrender’
+  125 | Vector3 vrender::operator* (double r,const Vector3& u)
+      |         ^~~~~~~
+In file included from VRender/Vector3.cpp:46:
+VRender/Vector3.h:158:19: note: only here as a ‘friend’
+  158 |    friend Vector3 operator* (double,const Vector3&);
+      |                   ^~~~~~~~
+VRender/Vector3.cpp:155:15: warning: ‘std::ostream& vrender::operator<<(std::ostream&, const vrender::Vector3&)’ has not been declared within ‘vrender’
+  155 | std::ostream& vrender::operator<< (std::ostream& out,const Vector3& u)
+      |               ^~~~~~~
+In file included from VRender/Vector3.cpp:46:
+VRender/Vector3.h:171:25: note: only here as a ‘friend’
+  171 |    friend std::ostream& operator<< (std::ostream&,const Vector3&);
+      |                         ^~~~~~~~
+VRender/NVector3.cpp:85:8: warning: ‘double vrender::operator*(const vrender::NVector3&, const vrender::Vector3&)’ has not been declared within ‘vrender’
+   85 | double vrender::operator*(const NVector3 &u,const Vector3  &v)
+      |        ^~~~~~~
+In file included from VRender/NVector3.cpp:45:
+VRender/NVector3.h:89:19: note: only here as a ‘friend’
+   89 |     friend double operator*(const NVector3 &u,const Vector3  &v);
+      |                   ^~~~~~~~
+VRender/NVector3.cpp:90:8: warning: ‘double vrender::operator*(const vrender::Vector3&, const vrender::NVector3&)’ has not been declared within ‘vrender’
+   90 | double vrender::operator*(const Vector3  &u,const NVector3 &v)
+      |        ^~~~~~~
+In file included from VRender/NVector3.cpp:45:
+VRender/NVector3.h:90:19: note: only here as a ‘friend’
+   90 |     friend double operator*(const Vector3  &u,const NVector3 &v);
+      |                   ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+VRender/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+VRender/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../frame.h:29,
+                 from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+VRender/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../keyFrameInterpolator.h:31,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+VRender/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+VRender/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+VRender/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+VRender/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from VRender/../quaternion.h:26,
+                 from VRender/../keyFrameInterpolator.h:29,
+                 from VRender/../camera.h:26,
+                 from VRender/../qglviewer.h:26,
+                 from VRender/VRender.h:52,
+                 from VRender/VRender.cpp:60:
+VRender/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+.moc/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+.moc/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+.moc/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+.moc/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+.moc/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+.moc/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+.moc/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/moc_qglviewer.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+.moc/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+.moc/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+.moc/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+.moc/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+.moc/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+.moc/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/moc_camera.cpp:9:
+.moc/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+.moc/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/../camera.h:26,
+                 from .moc/moc_camera.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+.moc/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+.moc/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+.moc/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+.moc/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/../manipulatedFrame.h:28,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+.moc/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/../manipulatedFrame.h:28,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+.moc/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../qglviewer.h:26,
+                 from .moc/../manipulatedFrame.h:28,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+.moc/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/moc_manipulatedFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+.moc/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+.moc/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+.moc/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+.moc/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/../manipulatedFrame.h:28,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+.moc/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../camera.h:26,
+                 from .moc/../qglviewer.h:26,
+                 from .moc/../manipulatedFrame.h:28,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+.moc/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../qglviewer.h:26,
+                 from .moc/../manipulatedFrame.h:28,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../camera.h: In member function ‘qglviewer::Vec qglviewer::Camera::sceneCenter() const’:
+.moc/../camera.h:297:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  297 |  Vec sceneCenter() const {{ return sceneCenter_; }}
+      |                                   ^~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::pivotPoint() const’:
+.moc/../manipulatedCameraFrame.h:75:34: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+   75 |  Vec pivotPoint() const {{ return pivotPoint_; }}
+      |                                  ^~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../manipulatedCameraFrame.h: In member function ‘qglviewer::Vec qglviewer::ManipulatedCameraFrame::sceneUpVector() const’:
+.moc/../manipulatedCameraFrame.h:171:37: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  171 |  Vec sceneUpVector() const {{ return sceneUpVector_; }}
+      |                                     ^~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/../manipulatedFrame.h:26,
+                 from .moc/../manipulatedCameraFrame.h:26,
+                 from .moc/moc_manipulatedCameraFrame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+.moc/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+.moc/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+.moc/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/moc_frame.cpp:9:
+.moc/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+.moc/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from .moc/../constraint.h:26,
+                 from .moc/../frame.h:29,
+                 from .moc/moc_frame.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h: In member function ‘qglviewer::Vec qglviewer::Vec::unit() const’:
+.moc/../vec.h:354:12: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  354 |   Vec v = *this;
+      |            ^~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:356:10: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  356 |   return v;
+      |          ^
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::translationConstraintDirection() const’:
+.moc/../constraint.h:238:54: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  238 |  Vec translationConstraintDirection() const {{ return translationConstraintDir_; }};
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../frame.h:29,
+                 from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../constraint.h: In member function ‘qglviewer::Vec qglviewer::AxisPlaneConstraint::rotationConstraintDirection() const’:
+.moc/../constraint.h:259:51: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  259 |  Vec rotationConstraintDirection() const {{ return rotationConstraintDir_; }};
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/../keyFrameInterpolator.h:31,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../frame.h: In member function ‘qglviewer::Vec qglviewer::Frame::translation() const’:
+.moc/../frame.h:228:35: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  228 |  Vec translation() const {{ return t_; }}
+      |                                   ^~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::position() const’:
+.moc/../keyFrameInterpolator.h:311:33: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  311 |   Vec position() const {{ return p_; }}
+      |                                 ^~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~
+In file included from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../keyFrameInterpolator.h: In member function ‘qglviewer::Vec qglviewer::KeyFrameInterpolator::KeyFrame::tgP() const’:
+.moc/../keyFrameInterpolator.h:313:28: warning: implicitly-declared ‘constexpr qglviewer::Vec::Vec(const qglviewer::Vec&)’ is deprecated [-Wdeprecated-copy]
+  313 |   Vec tgP() const {{ return tgP_; }}
+      |                            ^~~~
+In file included from .moc/../quaternion.h:26,
+                 from .moc/../keyFrameInterpolator.h:29,
+                 from .moc/moc_keyFrameInterpolator.cpp:9:
+.moc/../vec.h:118:7: note: because ‘qglviewer::Vec’ has user-provided ‘qglviewer::Vec& qglviewer::Vec::operator=(const qglviewer::Vec&)’
+  118 |  Vec& operator=(const Vec& v)
+      |       ^~~~~~~~

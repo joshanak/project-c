@@ -7,7 +7,9 @@
     <init_robot_x>0</init_robot_x>          <!-- x coordinate in meters, optional, default 0 -->
     <init_robot_y>0</init_robot_y>          <!-- y coordinate in meters, optional, default 0 -->
 </plugin>
-
+<remap from="tf" to="/bebop/tf" />
+<remap from="/laser/scan" to="/bebop/laser/scan" />
+<remap from="/clock" to="/bebop/clock" />
 <arg name="name" default="bebop" />
     <arg name="x" default="1.5" />
     <arg name="y" default="1.0" />
@@ -22,9 +24,17 @@
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
         <arg name="paused" value="false" />
         <arg name="use_sim_time" value="true"/>
-        <arg name="world_name" value = "/home/petar/project_ws/src/drone_navigation/src/stl_map/export.world"/>
+        <arg name="world_name" value = "$(find drone_navigation)/src/map/export.world"/>
         <arg name="verbose" value="true" />
     </include>
+    
+        <group ns="bebop">
+        <node pkg="med_uav_control" type="height_ctl.py" name="height_ctl" output="screen"/>
+        <node pkg="med_uav_control" type="attitude_ctl.py" name="attitude_ctl" output="screen"/>
+        <node pkg="med_uav_control" type="horizontal_ctl.py" name="horizontal_ctl" output="screen"/>
+
+        <node pkg="med_uav_control" type="trajectory_to_position_reference.py" 		 name="trajectory_to_position_reference" output="screen" />
+    </group>
     
     <include file="$(find med_uav_description)/launch/spawn_bebop.launch">
         <arg name="name" value="$(arg name)" />
@@ -39,3 +49,4 @@
         <arg name="wind_direction_z" value="$(arg wind_direction_z)"/>
     </include>
 </launch>
+

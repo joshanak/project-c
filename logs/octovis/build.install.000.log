@@ -1,0 +1,25 @@
+[ 17%] Built target octovis-shared
+[ 82%] Built target octovis
+[100%] Built target octovis-static
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/petar/project_ws/devel/bin/octovis
+-- Set runtime path of "/home/petar/project_ws/devel/bin/octovis" to "/home/petar/project_ws/devel/lib"
+-- Installing: /home/petar/project_ws/devel/lib/liboctovis.a
+-- Installing: /home/petar/project_ws/devel/lib/liboctovis.so.1.9.7
+-- Installing: /home/petar/project_ws/devel/lib/liboctovis.so.1.9
+-- Set runtime path of "/home/petar/project_ws/devel/lib/liboctovis.so.1.9.7" to "/home/petar/project_ws/devel/lib"
+-- Installing: /home/petar/project_ws/devel/lib/liboctovis.so
+-- Installing: /home/petar/project_ws/devel/share/octovis/octovis-targets.cmake
+-- Installing: /home/petar/project_ws/devel/share/octovis/octovis-targets-release.cmake
+-- Installing: /home/petar/project_ws/devel/include/octovis/ColorOcTreeDrawer.h
+-- Installing: /home/petar/project_ws/devel/include/octovis/OcTreeDrawer.h
+-- Installing: /home/petar/project_ws/devel/include/octovis/OcTreeRecord.h
+-- Installing: /home/petar/project_ws/devel/include/octovis/PointcloudDrawer.h
+-- Installing: /home/petar/project_ws/devel/include/octovis/SceneObject.h
+-- Installing: /home/petar/project_ws/devel/include/octovis/SelectionBox.h
+-- Installing: /home/petar/project_ws/devel/include/octovis/TrajectoryDrawer.h
+-- Installing: /home/petar/project_ws/devel/share/octovis/octovis-config.cmake
+-- Installing: /home/petar/project_ws/devel/share/octovis/octovis-config-version.cmake
+-- Installing: /home/petar/project_ws/devel/share/octovis/package.xml
+-- Installing: /home/petar/project_ws/devel/share/ament_index/resource_index/packages/octovis

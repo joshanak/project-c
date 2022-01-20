@@ -1,0 +1,88 @@
+[35m[1mScanning dependencies of target octovis-shared[0m
+[35m[1mScanning dependencies of target octovis-static[0m
+[  2%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/PointcloudDrawer.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/SceneObject.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/OcTreeDrawer.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/SceneObject.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengl.h:146[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtOpenGL/qgl.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtOpenGL/QGLWidget:1[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/config.h:77[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/vec.h:32[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/quaternion.h:26[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/keyFrameInterpolator.h:29[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/camera.h:26[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/qglviewer.h:26[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/OcTreeDrawer.cpp:26[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglext.h:60:[m[K [01;35m[Kwarning: [m[K"GL_GLEXT_VERSION" redefined
+   60 | #define GL_GLEXT_VERSION 20170325
+      | 
+In file included from [01m[K/usr/include/GL/gl.h:2050[m[K,
+                 from [01m[K/usr/include/GL/glu.h:38[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/include/octovis/SceneObject.h:37[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/include/octovis/OcTreeDrawer.h:28[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/OcTreeDrawer.cpp:25[m[K:
+[01m[K/usr/include/GL/glext.h:54:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   54 | #define GL_GLEXT_VERSION 20190805
+      | 
+[ 12%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/PointcloudDrawer.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/SelectionBox.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/TrajectoryDrawer.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/octovis-shared.dir/src/ColorOcTreeDrawer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/OcTreeDrawer.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengl.h:146[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtOpenGL/qgl.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtOpenGL/QGLWidget:1[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/config.h:77[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/vec.h:32[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/quaternion.h:26[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/keyFrameInterpolator.h:29[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/camera.h:26[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/extern/QGLViewer/qglviewer.h:26[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/OcTreeDrawer.cpp:26[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglext.h:60:[m[K [01;35m[Kwarning: [m[K"GL_GLEXT_VERSION" redefined
+   60 | #define GL_GLEXT_VERSION 20170325
+      | 
+In file included from [01m[K/usr/include/GL/gl.h:2050[m[K,
+                 from [01m[K/usr/include/GL/glu.h:38[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/include/octovis/SceneObject.h:37[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/include/octovis/OcTreeDrawer.h:28[m[K,
+                 from [01m[K/home/petar/project_ws/src/octomap/octovis/src/OcTreeDrawer.cpp:25[m[K:
+[01m[K/usr/include/GL/glext.h:54:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   54 | #define GL_GLEXT_VERSION 20190805
+      | 
+[ 25%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/SelectionBox.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/TrajectoryDrawer.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library /home/petar/project_ws/src/octomap/octovis/lib/liboctovis.so[0m
+[ 30%] Built target octovis-shared
+[ 32%] [34m[1mGenerating qrc_icons.cpp[0m
+[ 35%] [34m[1mGenerating ui_ViewerGui.h[0m
+[ 37%] [34m[1mGenerating ui_ViewerSettings.h[0m
+[ 40%] [34m[1mGenerating ui_ViewerSettingsPanel.h[0m
+[ 42%] [34m[1mGenerating ui_ViewerSettingsPanelCamera.h[0m
+[ 45%] [34m[1mGenerating include/octovis/moc_ViewerGui.cpp[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/octovis-static.dir/src/ColorOcTreeDrawer.cpp.o[0m
+[ 50%] [34m[1mGenerating include/octovis/moc_ViewerWidget.cpp[0m
+[ 52%] [34m[1mGenerating include/octovis/moc_ViewerSettings.cpp[0m
+[ 55%] [34m[1mGenerating include/octovis/moc_ViewerSettingsPanel.cpp[0m
+[ 57%] [34m[1mGenerating include/octovis/moc_ViewerSettingsPanelCamera.cpp[0m
+[ 60%] [34m[1mGenerating include/octovis/moc_CameraFollowMode.cpp[0m
+[35m[1mScanning dependencies of target octovis[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/main.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/ViewerGui.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/ViewerWidget.cpp.o[0m
+[ 70%] [32m[1mLinking CXX static library /home/petar/project_ws/src/octomap/octovis/lib/liboctovis.a[0m
+[ 70%] Built target octovis-static
+[ 72%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/ViewerSettings.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/ViewerSettingsPanel.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/ViewerSettingsPanelCamera.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/octovis.dir/src/CameraFollowMode.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/octovis.dir/include/octovis/moc_ViewerGui.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/octovis.dir/include/octovis/moc_ViewerWidget.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/octovis.dir/include/octovis/moc_ViewerSettings.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/octovis.dir/include/octovis/moc_ViewerSettingsPanel.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/octovis.dir/include/octovis/moc_ViewerSettingsPanelCamera.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/octovis.dir/include/octovis/moc_CameraFollowMode.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/octovis.dir/qrc_icons.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/petar/project_ws/src/octomap/octovis/bin/octovis[0m
+[100%] Built target octovis

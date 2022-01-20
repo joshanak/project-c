@@ -1,0 +1,7 @@
+<launch>
+	<arg name="world" value = "/home/petar/project_ws/src/drone_navigation/src/stageros/simple_rps.world"/>
+	<arg name="map" value = "/home/petar/project_ws/src/drone_navigation/src/map/arena7.yaml"/>
+	<node pkg="stage_ros" type="stageros" name="stageros" args="$(arg world)" output="screen"/>
+	<node pkg="map_server" type="map_server" name="map_server" args="$(arg map)" output="screen"/>
+	
+</launch>
