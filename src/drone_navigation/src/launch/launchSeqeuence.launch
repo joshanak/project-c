@@ -1,4 +1,23 @@
 <launch>
+	<arg name="world" value = "$(find drone_navigation)/src/stageros/simple_rps.world"/>
+	<!-- <arg name="node_start_delay" default="1.0"/> -->
+	<node pkg="stage_ros" type="stageros" name="stageros" args="$(arg world)" output="screen" launch-prefix="bash -c 'sleep 1; $0 $@' "/>
+	
+	<arg name="map" value = "$(find drone_navigation)/src/map/arena7.yaml"/>
+	<node pkg="map_server" type="map_server" name="map_server" args="$(arg map)" output="screen" launch-prefix="bash -c 'sleep 2; $0 $@' "/>
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find drone_navigation)/src/rviz/config.rviz" />
+	
+	<node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" launch-prefix="bash -c 'sleep 3; $0 $@' ">
+	    <rosparam file="$(find drone_navigation)/src/move_base/costmap_common_params.yaml" command="load" ns="global_costmap" />
+	    <rosparam file="$(find drone_navigation)/src/move_base/costmap_common_params.yaml" command="load" ns="local_costmap" />
+	    <rosparam file="$(find drone_navigation)/src/move_base/local_costmap_params.yaml" command="load" />
+	    <rosparam file="$(find drone_navigation)/src/move_base/global_costmap_params.yaml" command="load" />
+	    <rosparam file="$(find drone_navigation)/src/move_base/base_local_planner_params.yaml" command="load" />
+  	</node>
+  	
+  	<arg name="tf" value = "0 0 0 0 0 0 map odom 100" />
+	<node pkg="tf" type="static_transform_publisher" name="static_transform_publisher" args="$(arg tf)" output="screen" launch-prefix="bash -c 'sleep 4; $0 $@' "/>
+	
 <plugin name='gazebo_occupancy_map' filename='libgazebo_2Dmap_plugin.so'>
     <map_resolution>0.1</map_resolution> <!-- in meters, optional, default 0.1 -->
     <map_height>0.3</map_height>         <!-- in meters, optional, default 0.3 -->
@@ -7,9 +26,11 @@
     <init_robot_x>0</init_robot_x>          <!-- x coordinate in meters, optional, default 0 -->
     <init_robot_y>0</init_robot_y>          <!-- y coordinate in meters, optional, default 0 -->
 </plugin>
-<remap from="tf" to="/bebop/tf" />
-<remap from="/laser/scan" to="/bebop/laser/scan" />
-<remap from="/clock" to="/bebop/clock" />
+
+	<remap from="tf" to="/bebop/tf" />
+	<remap from="/laser/scan" to="/bebop/laser/scan" />
+	<remap from="/clock" to="/bebop/clock" />
+	
 <arg name="name" default="bebop" />
     <arg name="x" default="1.5" />
     <arg name="y" default="1.0" />
@@ -33,7 +54,8 @@
         <node pkg="med_uav_control" type="attitude_ctl.py" name="attitude_ctl" output="screen"/>
         <node pkg="med_uav_control" type="horizontal_ctl.py" name="horizontal_ctl" output="screen"/>
 
-        <node pkg="med_uav_control" type="trajectory_to_position_reference.py" 		 name="trajectory_to_position_reference" output="screen" />
+        <node pkg="med_uav_control" type="trajectory_to_position_reference.py" name="trajectory_to_position_reference" output="screen" />
+        
     </group>
     
     <include file="$(find med_uav_description)/launch/spawn_bebop.launch">
@@ -53,6 +75,5 @@
 
     <node pkg="drone_navigation" name="bebopController" type="bebopController.py" output="screen"/>
 
-
+	
 </launch>
-
